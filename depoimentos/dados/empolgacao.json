@@ -1,0 +1,79 @@
+{
+ "MVI_0585.MP4": {
+  "resposta_ini": 1.74,
+  "resposta_fim": 14.6,
+  "dur": 12.86,
+  "volume_db": -16.8,
+  "variacao_tom_st": 9.42,
+  "palavras_s": 3.03,
+  "movimento": 15.81,
+  "texto": "A minha parte favorita do Quintão definitivamente é o T .T. Trufado, que é esse hambúrguer que eu pedi, e ainda mais para completar esse ponto. Gente, olha só isso, a carne mal passada do jeitinho que eu gosto.",
+  "escore_empolgacao": 0.67
+ },
+ "MVI_0586.MP4": {
+  "resposta_ini": 1.58,
+  "resposta_fim": 8.32,
+  "dur": 6.74,
+  "volume_db": -15.6,
+  "variacao_tom_st": 5.37,
+  "palavras_s": 2.23,
+  "movimento": 17.27,
+  "texto": "Minha parte favorita do Quintão é poder juntar os meus favoritos, hambúrguer e uma cervejinha.",
+  "escore_empolgacao": -0.06
+ },
+ "MVI_0587.MP4": {
+  "resposta_ini": 1.18,
+  "resposta_fim": 9.4,
+  "dur": 8.22,
+  "volume_db": -26.8,
+  "variacao_tom_st": 9.1,
+  "palavras_s": 2.43,
+  "movimento": 11.43,
+  "texto": "A minha parte favorita do Quintão é toda semana provar um hambúrguer diferente para saber qual combina com meu paladar.",
+  "escore_empolgacao": -0.72
+ },
+ "MVI_0588.MP4": {
+  "resposta_ini": 15.3,
+  "resposta_fim": 21.62,
+  "dur": 6.32,
+  "volume_db": -16.8,
+  "variacao_tom_st": 6.04,
+  "palavras_s": 3.32,
+  "movimento": 18.6,
+  "texto": "Minha parte favorita do Quintão é poder provar à vontade o chopp da Mabros e comer aquele hambúrguer gostoso de verdade.",
+  "escore_empolgacao": 0.6
+ },
+ "MVI_0589.MP4": {
+  "resposta_ini": 1.04,
+  "resposta_fim": 6.48,
+  "dur": 5.44,
+  "volume_db": -12.4,
+  "variacao_tom_st": 6.29,
+  "palavras_s": 3.12,
+  "movimento": 13.29,
+  "texto": "Minha parte favorita do Quintão é porque é o dia oficial de renovar meu kiteshop de Goiabara.",
+  "escore_empolgacao": 0.25
+ },
+ "MVI_0590.MP4": {
+  "resposta_ini": 0.0,
+  "resposta_fim": 6.3,
+  "dur": 6.3,
+  "volume_db": -18.4,
+  "variacao_tom_st": 7.81,
+  "palavras_s": 1.59,
+  "movimento": 17.29,
+  "texto": "Minha parte favorita do Quintão é comer, gente. Sem dúvida!",
+  "escore_empolgacao": -0.15
+ },
+ "MVI_0598.MP4": {
+  "resposta_ini": 3.82,
+  "resposta_fim": 35.78,
+  "dur": 31.96,
+  "volume_db": -19.7,
+  "variacao_tom_st": 4.67,
+  "palavras_s": 2.47,
+  "movimento": 14.58,
+  "texto": "A melhor parte do Quintou é poder sair do trabalho na quinta -feira, pré -final de semana, vir aqui comer um hambúrguer. O melhor inclusive é sair do trabalho numa quinta -feira, pré -final de semana, comer um hambúrguer, que o do T .T. é o melhor que tem, tomar um chopp, dar uma relaxada. E é isso, cara. Sempre que encontra alguém conhecido, a gente fica na resenha, conversa, toma um chopp, come um hambúrguer. E é isso.",
+  "escore_empolgacao": -0.59
+ }
+}

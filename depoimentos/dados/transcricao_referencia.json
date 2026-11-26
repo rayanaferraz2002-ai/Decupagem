@@ -1,0 +1,1717 @@
+{
+ "snapinsta-1795708988972.mp4": [
+  {
+   "ini": 0.0,
+   "fim": 6.28,
+   "texto": "O que eu vou mais sentir saudade no Rio Gastronomia é encontrar e receber meus amigos aqui todos os dias de eventos.",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 0.0,
+     "fim": 0.16,
+     "prob": 0.36
+    },
+    {
+     "p": "que",
+     "ini": 0.16,
+     "fim": 0.26,
+     "prob": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 0.26,
+     "fim": 0.36,
+     "prob": 0.94
+    },
+    {
+     "p": "vou",
+     "ini": 0.36,
+     "fim": 0.52,
+     "prob": 0.96
+    },
+    {
+     "p": "mais",
+     "ini": 0.52,
+     "fim": 0.7,
+     "prob": 0.86
+    },
+    {
+     "p": "sentir",
+     "ini": 0.7,
+     "fim": 0.92,
+     "prob": 0.98
+    },
+    {
+     "p": "saudade",
+     "ini": 0.92,
+     "fim": 1.44,
+     "prob": 0.96
+    },
+    {
+     "p": "no",
+     "ini": 1.44,
+     "fim": 1.58,
+     "prob": 0.58
+    },
+    {
+     "p": "Rio",
+     "ini": 1.58,
+     "fim": 1.76,
+     "prob": 0.98
+    },
+    {
+     "p": "Gastronomia",
+     "ini": 1.76,
+     "fim": 2.54,
+     "prob": 0.96
+    },
+    {
+     "p": "é",
+     "ini": 2.54,
+     "fim": 2.98,
+     "prob": 0.77
+    },
+    {
+     "p": "encontrar",
+     "ini": 2.98,
+     "fim": 3.4,
+     "prob": 0.97
+    },
+    {
+     "p": "e",
+     "ini": 3.4,
+     "fim": 3.52,
+     "prob": 0.99
+    },
+    {
+     "p": "receber",
+     "ini": 3.52,
+     "fim": 3.82,
+     "prob": 0.99
+    },
+    {
+     "p": "meus",
+     "ini": 3.82,
+     "fim": 4.08,
+     "prob": 0.93
+    },
+    {
+     "p": "amigos",
+     "ini": 4.08,
+     "fim": 4.4,
+     "prob": 0.99
+    },
+    {
+     "p": "aqui",
+     "ini": 4.4,
+     "fim": 5.04,
+     "prob": 0.95
+    },
+    {
+     "p": "todos",
+     "ini": 5.04,
+     "fim": 5.36,
+     "prob": 0.91
+    },
+    {
+     "p": "os",
+     "ini": 5.36,
+     "fim": 5.46,
+     "prob": 1.0
+    },
+    {
+     "p": "dias",
+     "ini": 5.46,
+     "fim": 5.6,
+     "prob": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 5.6,
+     "fim": 5.84,
+     "prob": 0.98
+    },
+    {
+     "p": "eventos.",
+     "ini": 5.84,
+     "fim": 6.28,
+     "prob": 0.73
+    }
+   ]
+  },
+  {
+   "ini": 6.36,
+   "fim": 17.14,
+   "texto": "O que eu vou sentir mais saudade do Rio Gastronomia é do contato próximo com o público e do contato próximo com os amigos que trabalham, às vezes, antes longe do meu e aqui tá do ladinho, então é muito legal essa trota.",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 6.36,
+     "fim": 6.36,
+     "prob": 0.94
+    },
+    {
+     "p": "que",
+     "ini": 6.36,
+     "fim": 6.5,
+     "prob": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 6.5,
+     "fim": 6.56,
+     "prob": 0.97
+    },
+    {
+     "p": "vou",
+     "ini": 6.56,
+     "fim": 6.7,
+     "prob": 0.99
+    },
+    {
+     "p": "sentir",
+     "ini": 6.7,
+     "fim": 6.92,
+     "prob": 0.78
+    },
+    {
+     "p": "mais",
+     "ini": 6.92,
+     "fim": 7.18,
+     "prob": 0.97
+    },
+    {
+     "p": "saudade",
+     "ini": 7.18,
+     "fim": 7.52,
+     "prob": 0.96
+    },
+    {
+     "p": "do",
+     "ini": 7.52,
+     "fim": 7.64,
+     "prob": 0.74
+    },
+    {
+     "p": "Rio",
+     "ini": 7.64,
+     "fim": 7.78,
+     "prob": 0.98
+    },
+    {
+     "p": "Gastronomia",
+     "ini": 7.78,
+     "fim": 8.42,
+     "prob": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 8.42,
+     "fim": 8.66,
+     "prob": 0.97
+    },
+    {
+     "p": "do",
+     "ini": 8.66,
+     "fim": 8.82,
+     "prob": 0.95
+    },
+    {
+     "p": "contato",
+     "ini": 8.82,
+     "fim": 9.28,
+     "prob": 0.98
+    },
+    {
+     "p": "próximo",
+     "ini": 9.28,
+     "fim": 9.7,
+     "prob": 0.99
+    },
+    {
+     "p": "com",
+     "ini": 9.7,
+     "fim": 9.94,
+     "prob": 0.95
+    },
+    {
+     "p": "o",
+     "ini": 9.94,
+     "fim": 10.1,
+     "prob": 0.97
+    },
+    {
+     "p": "público",
+     "ini": 10.1,
+     "fim": 10.44,
+     "prob": 0.89
+    },
+    {
+     "p": "e",
+     "ini": 10.44,
+     "fim": 10.98,
+     "prob": 0.85
+    },
+    {
+     "p": "do",
+     "ini": 10.98,
+     "fim": 11.1,
+     "prob": 0.94
+    },
+    {
+     "p": "contato",
+     "ini": 11.1,
+     "fim": 11.46,
+     "prob": 1.0
+    },
+    {
+     "p": "próximo",
+     "ini": 11.46,
+     "fim": 11.84,
+     "prob": 0.99
+    },
+    {
+     "p": "com",
+     "ini": 11.84,
+     "fim": 12.02,
+     "prob": 0.99
+    },
+    {
+     "p": "os",
+     "ini": 12.02,
+     "fim": 12.3,
+     "prob": 0.98
+    },
+    {
+     "p": "amigos",
+     "ini": 12.3,
+     "fim": 12.52,
+     "prob": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 12.52,
+     "fim": 12.78,
+     "prob": 0.84
+    },
+    {
+     "p": "trabalham,",
+     "ini": 12.78,
+     "fim": 13.14,
+     "prob": 0.99
+    },
+    {
+     "p": "às",
+     "ini": 13.16,
+     "fim": 13.28,
+     "prob": 0.85
+    },
+    {
+     "p": "vezes,",
+     "ini": 13.28,
+     "fim": 13.42,
+     "prob": 0.99
+    },
+    {
+     "p": "antes",
+     "ini": 13.52,
+     "fim": 13.78,
+     "prob": 0.25
+    },
+    {
+     "p": "longe",
+     "ini": 13.78,
+     "fim": 14.18,
+     "prob": 0.55
+    },
+    {
+     "p": "do",
+     "ini": 14.18,
+     "fim": 14.38,
+     "prob": 0.95
+    },
+    {
+     "p": "meu",
+     "ini": 14.38,
+     "fim": 14.6,
+     "prob": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 14.6,
+     "fim": 15.04,
+     "prob": 0.55
+    },
+    {
+     "p": "aqui",
+     "ini": 15.04,
+     "fim": 15.2,
+     "prob": 0.92
+    },
+    {
+     "p": "tá",
+     "ini": 15.2,
+     "fim": 15.36,
+     "prob": 0.46
+    },
+    {
+     "p": "do",
+     "ini": 15.36,
+     "fim": 15.5,
+     "prob": 0.98
+    },
+    {
+     "p": "ladinho,",
+     "ini": 15.5,
+     "fim": 15.94,
+     "prob": 0.95
+    },
+    {
+     "p": "então",
+     "ini": 15.98,
+     "fim": 16.08,
+     "prob": 0.42
+    },
+    {
+     "p": "é",
+     "ini": 16.08,
+     "fim": 16.08,
+     "prob": 0.97
+    },
+    {
+     "p": "muito",
+     "ini": 16.08,
+     "fim": 16.3,
+     "prob": 1.0
+    },
+    {
+     "p": "legal",
+     "ini": 16.3,
+     "fim": 16.54,
+     "prob": 1.0
+    },
+    {
+     "p": "essa",
+     "ini": 16.54,
+     "fim": 16.78,
+     "prob": 0.97
+    },
+    {
+     "p": "trota.",
+     "ini": 16.78,
+     "fim": 17.14,
+     "prob": 0.6
+    }
+   ]
+  },
+  {
+   "ini": 17.34,
+   "fim": 26.4,
+   "texto": "O que eu mais vou sentir saudade do Rio Gastronomia é ter essa interação maneira com os meus vizinhos, esse povo de cozinha que demora a se encontrar pra caramba,",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 17.34,
+     "fim": 17.36,
+     "prob": 0.96
+    },
+    {
+     "p": "que",
+     "ini": 17.36,
+     "fim": 17.48,
+     "prob": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 17.48,
+     "fim": 17.64,
+     "prob": 0.98
+    },
+    {
+     "p": "mais",
+     "ini": 17.64,
+     "fim": 17.82,
+     "prob": 0.99
+    },
+    {
+     "p": "vou",
+     "ini": 17.82,
+     "fim": 18.0,
+     "prob": 1.0
+    },
+    {
+     "p": "sentir",
+     "ini": 18.0,
+     "fim": 18.34,
+     "prob": 0.99
+    },
+    {
+     "p": "saudade",
+     "ini": 18.34,
+     "fim": 18.94,
+     "prob": 0.99
+    },
+    {
+     "p": "do",
+     "ini": 18.94,
+     "fim": 19.04,
+     "prob": 0.98
+    },
+    {
+     "p": "Rio",
+     "ini": 19.04,
+     "fim": 19.16,
+     "prob": 0.99
+    },
+    {
+     "p": "Gastronomia",
+     "ini": 19.16,
+     "fim": 20.28,
+     "prob": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 20.28,
+     "fim": 20.48,
+     "prob": 0.98
+    },
+    {
+     "p": "ter",
+     "ini": 20.48,
+     "fim": 20.62,
+     "prob": 0.96
+    },
+    {
+     "p": "essa",
+     "ini": 20.62,
+     "fim": 20.78,
+     "prob": 0.99
+    },
+    {
+     "p": "interação",
+     "ini": 20.78,
+     "fim": 21.22,
+     "prob": 1.0
+    },
+    {
+     "p": "maneira",
+     "ini": 21.22,
+     "fim": 21.5,
+     "prob": 0.98
+    },
+    {
+     "p": "com",
+     "ini": 21.5,
+     "fim": 21.68,
+     "prob": 1.0
+    },
+    {
+     "p": "os",
+     "ini": 21.68,
+     "fim": 21.8,
+     "prob": 0.5
+    },
+    {
+     "p": "meus",
+     "ini": 21.8,
+     "fim": 21.92,
+     "prob": 0.88
+    },
+    {
+     "p": "vizinhos,",
+     "ini": 21.92,
+     "fim": 22.54,
+     "prob": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 22.74,
+     "fim": 22.84,
+     "prob": 0.94
+    },
+    {
+     "p": "povo",
+     "ini": 22.84,
+     "fim": 23.08,
+     "prob": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 23.08,
+     "fim": 23.3,
+     "prob": 0.99
+    },
+    {
+     "p": "cozinha",
+     "ini": 23.3,
+     "fim": 23.98,
+     "prob": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 23.98,
+     "fim": 24.3,
+     "prob": 0.78
+    },
+    {
+     "p": "demora",
+     "ini": 24.3,
+     "fim": 24.7,
+     "prob": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 24.7,
+     "fim": 24.82,
+     "prob": 0.6
+    },
+    {
+     "p": "se",
+     "ini": 24.82,
+     "fim": 24.92,
+     "prob": 0.99
+    },
+    {
+     "p": "encontrar",
+     "ini": 24.92,
+     "fim": 25.24,
+     "prob": 0.99
+    },
+    {
+     "p": "pra",
+     "ini": 25.24,
+     "fim": 25.5,
+     "prob": 0.8
+    },
+    {
+     "p": "caramba,",
+     "ini": 25.5,
+     "fim": 26.4,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 26.4,
+   "fim": 35.24,
+   "texto": "é conhecer um monte de gente nova, ver um monte de gente que nunca foi no restaurante, descobre aqui e depois eu vejo lá durante o ano inteiro.",
+   "palavras": [
+    {
+     "p": "é",
+     "ini": 26.4,
+     "fim": 26.66,
+     "prob": 0.43
+    },
+    {
+     "p": "conhecer",
+     "ini": 26.66,
+     "fim": 27.12,
+     "prob": 0.99
+    },
+    {
+     "p": "um",
+     "ini": 27.12,
+     "fim": 27.32,
+     "prob": 0.97
+    },
+    {
+     "p": "monte",
+     "ini": 27.32,
+     "fim": 27.54,
+     "prob": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 27.54,
+     "fim": 27.76,
+     "prob": 1.0
+    },
+    {
+     "p": "gente",
+     "ini": 27.76,
+     "fim": 28.02,
+     "prob": 0.99
+    },
+    {
+     "p": "nova,",
+     "ini": 28.02,
+     "fim": 28.4,
+     "prob": 0.99
+    },
+    {
+     "p": "ver",
+     "ini": 28.64,
+     "fim": 28.64,
+     "prob": 0.95
+    },
+    {
+     "p": "um",
+     "ini": 28.64,
+     "fim": 28.76,
+     "prob": 0.95
+    },
+    {
+     "p": "monte",
+     "ini": 28.76,
+     "fim": 28.96,
+     "prob": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 28.96,
+     "fim": 29.1,
+     "prob": 0.99
+    },
+    {
+     "p": "gente",
+     "ini": 29.1,
+     "fim": 29.28,
+     "prob": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 29.28,
+     "fim": 29.4,
+     "prob": 0.99
+    },
+    {
+     "p": "nunca",
+     "ini": 29.4,
+     "fim": 29.7,
+     "prob": 1.0
+    },
+    {
+     "p": "foi",
+     "ini": 29.7,
+     "fim": 29.86,
+     "prob": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 29.86,
+     "fim": 29.98,
+     "prob": 0.79
+    },
+    {
+     "p": "restaurante,",
+     "ini": 29.98,
+     "fim": 30.88,
+     "prob": 1.0
+    },
+    {
+     "p": "descobre",
+     "ini": 31.24,
+     "fim": 31.7,
+     "prob": 0.8
+    },
+    {
+     "p": "aqui",
+     "ini": 31.7,
+     "fim": 32.2,
+     "prob": 0.99
+    },
+    {
+     "p": "e",
+     "ini": 32.2,
+     "fim": 32.7,
+     "prob": 0.55
+    },
+    {
+     "p": "depois",
+     "ini": 32.7,
+     "fim": 33.0,
+     "prob": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 33.0,
+     "fim": 33.24,
+     "prob": 0.93
+    },
+    {
+     "p": "vejo",
+     "ini": 33.24,
+     "fim": 33.5,
+     "prob": 1.0
+    },
+    {
+     "p": "lá",
+     "ini": 33.5,
+     "fim": 33.86,
+     "prob": 0.99
+    },
+    {
+     "p": "durante",
+     "ini": 33.86,
+     "fim": 34.2,
+     "prob": 0.91
+    },
+    {
+     "p": "o",
+     "ini": 34.2,
+     "fim": 34.28,
+     "prob": 0.96
+    },
+    {
+     "p": "ano",
+     "ini": 34.28,
+     "fim": 34.5,
+     "prob": 1.0
+    },
+    {
+     "p": "inteiro.",
+     "ini": 34.5,
+     "fim": 35.24,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 35.52,
+   "fim": 51.96,
+   "texto": "O que eu vou sentir mais saudade do Rio Gastronomia é ter tantos amigos por perto aqui, enfim, o Gonça Ficadoréu do Babo, do Katsu, do Coral, grandes amigos, Valdafrente, o Marquito, nada, é muito legal estar nesse evento e ver os amigos todos os dias, quando a gente não faz nenhum dia a dia.",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 35.52,
+     "fim": 35.52,
+     "prob": 0.95
+    },
+    {
+     "p": "que",
+     "ini": 35.52,
+     "fim": 35.62,
+     "prob": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 35.62,
+     "fim": 35.72,
+     "prob": 0.96
+    },
+    {
+     "p": "vou",
+     "ini": 35.72,
+     "fim": 35.76,
+     "prob": 0.94
+    },
+    {
+     "p": "sentir",
+     "ini": 35.76,
+     "fim": 35.98,
+     "prob": 0.98
+    },
+    {
+     "p": "mais",
+     "ini": 35.98,
+     "fim": 36.2,
+     "prob": 0.99
+    },
+    {
+     "p": "saudade",
+     "ini": 36.2,
+     "fim": 36.5,
+     "prob": 0.84
+    },
+    {
+     "p": "do",
+     "ini": 36.5,
+     "fim": 36.66,
+     "prob": 0.09
+    },
+    {
+     "p": "Rio",
+     "ini": 36.66,
+     "fim": 36.74,
+     "prob": 0.54
+    },
+    {
+     "p": "Gastronomia",
+     "ini": 36.74,
+     "fim": 37.3,
+     "prob": 0.94
+    },
+    {
+     "p": "é",
+     "ini": 37.3,
+     "fim": 37.74,
+     "prob": 0.58
+    },
+    {
+     "p": "ter",
+     "ini": 37.74,
+     "fim": 37.88,
+     "prob": 0.52
+    },
+    {
+     "p": "tantos",
+     "ini": 37.88,
+     "fim": 38.04,
+     "prob": 0.97
+    },
+    {
+     "p": "amigos",
+     "ini": 38.04,
+     "fim": 38.3,
+     "prob": 0.99
+    },
+    {
+     "p": "por",
+     "ini": 38.3,
+     "fim": 38.62,
+     "prob": 0.98
+    },
+    {
+     "p": "perto",
+     "ini": 38.62,
+     "fim": 38.86,
+     "prob": 1.0
+    },
+    {
+     "p": "aqui,",
+     "ini": 38.86,
+     "fim": 39.62,
+     "prob": 0.88
+    },
+    {
+     "p": "enfim,",
+     "ini": 39.76,
+     "fim": 40.06,
+     "prob": 0.9
+    },
+    {
+     "p": "o",
+     "ini": 40.22,
+     "fim": 40.22,
+     "prob": 0.64
+    },
+    {
+     "p": "Gonça",
+     "ini": 40.22,
+     "fim": 40.4,
+     "prob": 0.68
+    },
+    {
+     "p": "Ficadoréu",
+     "ini": 40.4,
+     "fim": 40.84,
+     "prob": 0.61
+    },
+    {
+     "p": "do",
+     "ini": 40.84,
+     "fim": 41.04,
+     "prob": 0.77
+    },
+    {
+     "p": "Babo,",
+     "ini": 41.04,
+     "fim": 41.66,
+     "prob": 0.59
+    },
+    {
+     "p": "do",
+     "ini": 41.76,
+     "fim": 41.96,
+     "prob": 0.95
+    },
+    {
+     "p": "Katsu,",
+     "ini": 41.96,
+     "fim": 42.42,
+     "prob": 0.64
+    },
+    {
+     "p": "do",
+     "ini": 42.62,
+     "fim": 42.8,
+     "prob": 0.99
+    },
+    {
+     "p": "Coral,",
+     "ini": 42.8,
+     "fim": 43.38,
+     "prob": 0.8
+    },
+    {
+     "p": "grandes",
+     "ini": 43.74,
+     "fim": 43.88,
+     "prob": 0.94
+    },
+    {
+     "p": "amigos,",
+     "ini": 43.88,
+     "fim": 44.24,
+     "prob": 0.97
+    },
+    {
+     "p": "Valdafrente,",
+     "ini": 44.36,
+     "fim": 45.12,
+     "prob": 0.52
+    },
+    {
+     "p": "o",
+     "ini": 45.7,
+     "fim": 45.84,
+     "prob": 0.92
+    },
+    {
+     "p": "Marquito,",
+     "ini": 45.84,
+     "fim": 46.42,
+     "prob": 0.87
+    },
+    {
+     "p": "nada,",
+     "ini": 46.98,
+     "fim": 47.08,
+     "prob": 0.76
+    },
+    {
+     "p": "é",
+     "ini": 47.08,
+     "fim": 47.22,
+     "prob": 0.94
+    },
+    {
+     "p": "muito",
+     "ini": 47.22,
+     "fim": 47.36,
+     "prob": 1.0
+    },
+    {
+     "p": "legal",
+     "ini": 47.36,
+     "fim": 47.74,
+     "prob": 1.0
+    },
+    {
+     "p": "estar",
+     "ini": 47.74,
+     "fim": 48.28,
+     "prob": 0.94
+    },
+    {
+     "p": "nesse",
+     "ini": 48.28,
+     "fim": 48.44,
+     "prob": 0.96
+    },
+    {
+     "p": "evento",
+     "ini": 48.44,
+     "fim": 48.74,
+     "prob": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 48.74,
+     "fim": 48.86,
+     "prob": 0.89
+    },
+    {
+     "p": "ver",
+     "ini": 48.86,
+     "fim": 48.94,
+     "prob": 0.99
+    },
+    {
+     "p": "os",
+     "ini": 48.94,
+     "fim": 49.06,
+     "prob": 0.92
+    },
+    {
+     "p": "amigos",
+     "ini": 49.06,
+     "fim": 49.2,
+     "prob": 0.99
+    },
+    {
+     "p": "todos",
+     "ini": 49.2,
+     "fim": 49.48,
+     "prob": 0.99
+    },
+    {
+     "p": "os",
+     "ini": 49.48,
+     "fim": 49.58,
+     "prob": 1.0
+    },
+    {
+     "p": "dias,",
+     "ini": 49.58,
+     "fim": 49.78,
+     "prob": 1.0
+    },
+    {
+     "p": "quando",
+     "ini": 49.86,
+     "fim": 49.98,
+     "prob": 0.58
+    },
+    {
+     "p": "a",
+     "ini": 49.98,
+     "fim": 50.06,
+     "prob": 0.96
+    },
+    {
+     "p": "gente",
+     "ini": 50.06,
+     "fim": 50.54,
+     "prob": 1.0
+    },
+    {
+     "p": "não",
+     "ini": 50.54,
+     "fim": 50.94,
+     "prob": 0.91
+    },
+    {
+     "p": "faz",
+     "ini": 50.94,
+     "fim": 51.06,
+     "prob": 0.97
+    },
+    {
+     "p": "nenhum",
+     "ini": 51.06,
+     "fim": 51.24,
+     "prob": 0.09
+    },
+    {
+     "p": "dia",
+     "ini": 51.24,
+     "fim": 51.52,
+     "prob": 0.23
+    },
+    {
+     "p": "a",
+     "ini": 51.52,
+     "fim": 51.78,
+     "prob": 0.75
+    },
+    {
+     "p": "dia.",
+     "ini": 51.78,
+     "fim": 51.96,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 51.96,
+   "fim": 65.38,
+   "texto": "O que eu mais vou sentir saudade do Rio Gastronomia é principalmente as pessoas que vêm pra cá, especialmente no evento, pra experimentar todos os tipos de comida, movimentação, dos shows, dos chefes, enfim.",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 51.96,
+     "fim": 51.96,
+     "prob": 0.24
+    },
+    {
+     "p": "que",
+     "ini": 51.96,
+     "fim": 52.18,
+     "prob": 0.98
+    },
+    {
+     "p": "eu",
+     "ini": 52.18,
+     "fim": 52.38,
+     "prob": 0.91
+    },
+    {
+     "p": "mais",
+     "ini": 52.38,
+     "fim": 52.56,
+     "prob": 0.98
+    },
+    {
+     "p": "vou",
+     "ini": 52.56,
+     "fim": 52.76,
+     "prob": 0.99
+    },
+    {
+     "p": "sentir",
+     "ini": 52.76,
+     "fim": 53.06,
+     "prob": 0.99
+    },
+    {
+     "p": "saudade",
+     "ini": 53.06,
+     "fim": 53.46,
+     "prob": 0.91
+    },
+    {
+     "p": "do",
+     "ini": 53.46,
+     "fim": 53.6,
+     "prob": 0.11
+    },
+    {
+     "p": "Rio",
+     "ini": 53.6,
+     "fim": 53.78,
+     "prob": 0.99
+    },
+    {
+     "p": "Gastronomia",
+     "ini": 53.78,
+     "fim": 54.7,
+     "prob": 0.97
+    },
+    {
+     "p": "é",
+     "ini": 54.7,
+     "fim": 55.06,
+     "prob": 0.81
+    },
+    {
+     "p": "principalmente",
+     "ini": 55.06,
+     "fim": 55.56,
+     "prob": 0.78
+    },
+    {
+     "p": "as",
+     "ini": 55.56,
+     "fim": 55.84,
+     "prob": 0.96
+    },
+    {
+     "p": "pessoas",
+     "ini": 55.84,
+     "fim": 56.3,
+     "prob": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 56.3,
+     "fim": 56.76,
+     "prob": 0.98
+    },
+    {
+     "p": "vêm",
+     "ini": 56.76,
+     "fim": 57.2,
+     "prob": 0.85
+    },
+    {
+     "p": "pra",
+     "ini": 57.2,
+     "fim": 57.68,
+     "prob": 0.73
+    },
+    {
+     "p": "cá,",
+     "ini": 57.68,
+     "fim": 58.02,
+     "prob": 1.0
+    },
+    {
+     "p": "especialmente",
+     "ini": 58.04,
+     "fim": 58.62,
+     "prob": 0.95
+    },
+    {
+     "p": "no",
+     "ini": 58.62,
+     "fim": 58.82,
+     "prob": 0.92
+    },
+    {
+     "p": "evento,",
+     "ini": 58.82,
+     "fim": 59.12,
+     "prob": 0.97
+    },
+    {
+     "p": "pra",
+     "ini": 59.24,
+     "fim": 59.34,
+     "prob": 0.84
+    },
+    {
+     "p": "experimentar",
+     "ini": 59.34,
+     "fim": 59.86,
+     "prob": 1.0
+    },
+    {
+     "p": "todos",
+     "ini": 59.86,
+     "fim": 60.12,
+     "prob": 0.98
+    },
+    {
+     "p": "os",
+     "ini": 60.12,
+     "fim": 60.26,
+     "prob": 0.99
+    },
+    {
+     "p": "tipos",
+     "ini": 60.26,
+     "fim": 60.64,
+     "prob": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 60.64,
+     "fim": 61.2,
+     "prob": 0.99
+    },
+    {
+     "p": "comida,",
+     "ini": 61.2,
+     "fim": 61.64,
+     "prob": 0.99
+    },
+    {
+     "p": "movimentação,",
+     "ini": 61.96,
+     "fim": 62.84,
+     "prob": 0.99
+    },
+    {
+     "p": "dos",
+     "ini": 63.14,
+     "fim": 63.28,
+     "prob": 0.85
+    },
+    {
+     "p": "shows,",
+     "ini": 63.28,
+     "fim": 63.54,
+     "prob": 0.99
+    },
+    {
+     "p": "dos",
+     "ini": 63.8,
+     "fim": 64.02,
+     "prob": 0.99
+    },
+    {
+     "p": "chefes,",
+     "ini": 64.02,
+     "fim": 64.84,
+     "prob": 0.89
+    },
+    {
+     "p": "enfim.",
+     "ini": 65.02,
+     "fim": 65.38,
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 65.58,
+   "fim": 76.82,
+   "texto": "O que eu mais vou sentir saudade dessa edição de 2026 é a mesma coisa que eu sinto saudade de todos os anos, é encontrar essas pessoas maravilhosas que vêm prestigiar o Rio Gastronomia 2026,",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 65.58,
+     "fim": 65.58,
+     "prob": 0.93
+    },
+    {
+     "p": "que",
+     "ini": 65.58,
+     "fim": 65.8,
+     "prob": 1.0
+    },
+    {
+     "p": "eu",
+     "ini": 65.8,
+     "fim": 65.96,
+     "prob": 0.98
+    },
+    {
+     "p": "mais",
+     "ini": 65.96,
+     "fim": 66.16,
+     "prob": 1.0
+    },
+    {
+     "p": "vou",
+     "ini": 66.16,
+     "fim": 66.32,
+     "prob": 0.99
+    },
+    {
+     "p": "sentir",
+     "ini": 66.32,
+     "fim": 66.48,
+     "prob": 0.99
+    },
+    {
+     "p": "saudade",
+     "ini": 66.48,
+     "fim": 67.04,
+     "prob": 0.95
+    },
+    {
+     "p": "dessa",
+     "ini": 67.04,
+     "fim": 67.16,
+     "prob": 0.87
+    },
+    {
+     "p": "edição",
+     "ini": 67.16,
+     "fim": 67.62,
+     "prob": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 67.62,
+     "fim": 67.84,
+     "prob": 0.9
+    },
+    {
+     "p": "2026",
+     "ini": 67.84,
+     "fim": 68.42,
+     "prob": 0.98
+    },
+    {
+     "p": "é",
+     "ini": 68.42,
+     "fim": 68.74,
+     "prob": 0.9
+    },
+    {
+     "p": "a",
+     "ini": 68.74,
+     "fim": 69.04,
+     "prob": 0.86
+    },
+    {
+     "p": "mesma",
+     "ini": 69.04,
+     "fim": 69.38,
+     "prob": 1.0
+    },
+    {
+     "p": "coisa",
+     "ini": 69.38,
+     "fim": 69.64,
+     "prob": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 69.64,
+     "fim": 69.76,
+     "prob": 0.97
+    },
+    {
+     "p": "eu",
+     "ini": 69.76,
+     "fim": 69.86,
+     "prob": 0.99
+    },
+    {
+     "p": "sinto",
+     "ini": 69.86,
+     "fim": 69.92,
+     "prob": 0.96
+    },
+    {
+     "p": "saudade",
+     "ini": 69.92,
+     "fim": 70.28,
+     "prob": 0.9
+    },
+    {
+     "p": "de",
+     "ini": 70.28,
+     "fim": 70.46,
+     "prob": 0.65
+    },
+    {
+     "p": "todos",
+     "ini": 70.46,
+     "fim": 70.68,
+     "prob": 1.0
+    },
+    {
+     "p": "os",
+     "ini": 70.68,
+     "fim": 70.88,
+     "prob": 1.0
+    },
+    {
+     "p": "anos,",
+     "ini": 70.88,
+     "fim": 71.14,
+     "prob": 1.0
+    },
+    {
+     "p": "é",
+     "ini": 71.62,
+     "fim": 71.8,
+     "prob": 0.98
+    },
+    {
+     "p": "encontrar",
+     "ini": 71.8,
+     "fim": 72.3,
+     "prob": 0.99
+    },
+    {
+     "p": "essas",
+     "ini": 72.3,
+     "fim": 72.64,
+     "prob": 0.99
+    },
+    {
+     "p": "pessoas",
+     "ini": 72.64,
+     "fim": 73.14,
+     "prob": 1.0
+    },
+    {
+     "p": "maravilhosas",
+     "ini": 73.14,
+     "fim": 73.9,
+     "prob": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 73.9,
+     "fim": 74.08,
+     "prob": 0.95
+    },
+    {
+     "p": "vêm",
+     "ini": 74.08,
+     "fim": 74.3,
+     "prob": 0.89
+    },
+    {
+     "p": "prestigiar",
+     "ini": 74.3,
+     "fim": 75.22,
+     "prob": 0.99
+    },
+    {
+     "p": "o",
+     "ini": 75.22,
+     "fim": 75.44,
+     "prob": 0.99
+    },
+    {
+     "p": "Rio",
+     "ini": 75.44,
+     "fim": 75.56,
+     "prob": 1.0
+    },
+    {
+     "p": "Gastronomia",
+     "ini": 75.56,
+     "fim": 76.02,
+     "prob": 1.0
+    },
+    {
+     "p": "2026,",
+     "ini": 76.02,
+     "fim": 76.82,
+     "prob": 0.91
+    }
+   ]
+  },
+  {
+   "ini": 76.82,
+   "fim": 87.52,
+   "texto": "receber cada um com um sorriso no rosto estampado e aguardar agora 2027 pra acontecer e a gente mais uma vez poder estar com vocês de novo.",
+   "palavras": [
+    {
+     "p": "receber",
+     "ini": 76.82,
+     "fim": 77.54,
+     "prob": 0.37
+    },
+    {
+     "p": "cada",
+     "ini": 77.54,
+     "fim": 77.94,
+     "prob": 0.98
+    },
+    {
+     "p": "um",
+     "ini": 77.94,
+     "fim": 78.12,
+     "prob": 1.0
+    },
+    {
+     "p": "com",
+     "ini": 78.12,
+     "fim": 78.3,
+     "prob": 0.97
+    },
+    {
+     "p": "um",
+     "ini": 78.3,
+     "fim": 78.44,
+     "prob": 0.98
+    },
+    {
+     "p": "sorriso",
+     "ini": 78.44,
+     "fim": 79.24,
+     "prob": 1.0
+    },
+    {
+     "p": "no",
+     "ini": 79.24,
+     "fim": 79.44,
+     "prob": 0.83
+    },
+    {
+     "p": "rosto",
+     "ini": 79.44,
+     "fim": 79.78,
+     "prob": 1.0
+    },
+    {
+     "p": "estampado",
+     "ini": 79.78,
+     "fim": 80.8,
+     "prob": 0.85
+    },
+    {
+     "p": "e",
+     "ini": 80.8,
+     "fim": 81.64,
+     "prob": 0.72
+    },
+    {
+     "p": "aguardar",
+     "ini": 81.64,
+     "fim": 82.04,
+     "prob": 0.98
+    },
+    {
+     "p": "agora",
+     "ini": 82.04,
+     "fim": 82.28,
+     "prob": 0.97
+    },
+    {
+     "p": "2027",
+     "ini": 82.28,
+     "fim": 83.04,
+     "prob": 0.78
+    },
+    {
+     "p": "pra",
+     "ini": 83.04,
+     "fim": 83.28,
+     "prob": 0.31
+    },
+    {
+     "p": "acontecer",
+     "ini": 83.28,
+     "fim": 83.82,
+     "prob": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 83.82,
+     "fim": 84.04,
+     "prob": 0.81
+    },
+    {
+     "p": "a",
+     "ini": 84.04,
+     "fim": 84.1,
+     "prob": 0.99
+    },
+    {
+     "p": "gente",
+     "ini": 84.1,
+     "fim": 84.74,
+     "prob": 1.0
+    },
+    {
+     "p": "mais",
+     "ini": 84.74,
+     "fim": 85.14,
+     "prob": 0.72
+    },
+    {
+     "p": "uma",
+     "ini": 85.14,
+     "fim": 85.38,
+     "prob": 1.0
+    },
+    {
+     "p": "vez",
+     "ini": 85.38,
+     "fim": 85.5,
+     "prob": 1.0
+    },
+    {
+     "p": "poder",
+     "ini": 85.5,
+     "fim": 86.08,
+     "prob": 0.99
+    },
+    {
+     "p": "estar",
+     "ini": 86.08,
+     "fim": 86.62,
+     "prob": 0.69
+    },
+    {
+     "p": "com",
+     "ini": 86.62,
+     "fim": 86.84,
+     "prob": 0.99
+    },
+    {
+     "p": "vocês",
+     "ini": 86.84,
+     "fim": 87.04,
+     "prob": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 87.04,
+     "fim": 87.2,
+     "prob": 0.98
+    },
+    {
+     "p": "novo.",
+     "ini": 87.2,
+     "fim": 87.52,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 87.8,
+   "fim": 88.18,
+   "texto": "Valeu!",
+   "palavras": [
+    {
+     "p": "Valeu!",
+     "ini": 87.8,
+     "fim": 88.18,
+     "prob": 1.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "sequencia": {
+  "largura": 720,
+  "altura": 1280,
+  "fps": 30,
+  "duracao_f": 1299,
+  "duracao_s": 43.3,
+  "fonte": "configuração do vídeo de referência"
+ },
+ "musica": {
+  "arquivo": "Feels Good (Instrumental).mp4",
+  "in_s": 49.667,
+  "out_s": 92.967,
+  "volume_fala_db": -26,
+  "volume_livre_db": -16,
+  "falas_f": [
+   [
+    0,
+    388
+   ],
+   [
+    407,
+    540
+   ],
+   [
+    548,
+    683
+   ],
+   [
+    688,
+    942
+   ],
+   [
+    954,
+    1092
+   ],
+   [
+    1111,
+    1200
+   ],
+   [
+    1205,
+    1270
+   ]
+  ],
+  "fade_out_s": 1.5,
+  "bpm": 114.98
+ },
+ "fade_video_f": 15,
+ "planos": [
+  {
+   "n": 1,
+   "clipe": "MVI_0585",
+   "arquivo": "MVI_0585.MP4",
+   "texto": "A minha parte favorita do Quintão definitivamente é o T.T. Trufado, que é esse hambúrguer que eu pedi, e ainda mais para completar esse ponto. Gente, olha só isso, a carne mal passada do jeitinho que eu gosto.",
+   "motivo": "abertura: depoimento mais empolgado (maior escore de volume/tom/gestos) e mostra o burger; única resposta inteira, com 'minha parte favorita...'",
+   "timeline_in_f": 0,
+   "timeline_out_f": 407,
+   "timeline_in_tc": "00:00:00:00",
+   "in_s": 1.75,
+   "out_s": 15.317,
+   "fala_fim_s": 14.68,
+   "rotacao": "ccw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "ganho_fala_db": 0.8,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 15.724042
+   }
+  },
+  {
+   "n": 2,
+   "clipe": "MVI_0588",
+   "arquivo": "MVI_0588.MP4",
+   "texto": "Poder provar à vontade o chopp da Mabros e comer aquele hambúrguer gostoso de verdade.",
+   "motivo": "2º mais empolgado; entra direto na resposta",
+   "timeline_in_f": 407,
+   "timeline_out_f": 548,
+   "timeline_in_tc": "00:00:13:17",
+   "in_s": 17.21,
+   "out_s": 21.91,
+   "fala_fim_s": 21.64,
+   "rotacao": "ccw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "ganho_fala_db": 0.8,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 22.939583
+   }
+  },
+  {
+   "n": 3,
+   "clipe": "MVI_0587",
+   "arquivo": "MVI_0587.MP4",
+   "texto": "Toda semana provar um hambúrguer diferente para saber qual combina com meu paladar.",
+   "motivo": "resposta direta; pouco movimento de câmera -> zoom-in",
+   "timeline_in_f": 548,
+   "timeline_out_f": 688,
+   "timeline_in_tc": "00:00:18:08",
+   "in_s": 4.9,
+   "out_s": 9.567,
+   "fala_fim_s": 9.41,
+   "rotacao": "cw",
+   "zoom": true,
+   "zoom_fim": 1.12,
+   "ganho_fala_db": 10.8,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 11.594917
+   }
+  },
+  {
+   "n": 4,
+   "clipe": "MVI_0598",
+   "arquivo": "MVI_0598.MP4",
+   "texto": "Poder sair do trabalho numa quinta-feira ali, pré-final de semana, comer um hambúrguer, que o do T.T. é o melhor que tem, tomar um chopp, dar uma relaxada.",
+   "motivo": "3ª tomada (a mais fluida), cita o T.T.; plano longo e parado -> zoom-in",
+   "timeline_in_f": 688,
+   "timeline_out_f": 954,
+   "timeline_in_tc": "00:00:22:28",
+   "in_s": 18.83,
+   "out_s": 27.697,
+   "fala_fim_s": 27.3,
+   "rotacao": "cw",
+   "zoom": true,
+   "zoom_fim": 1.12,
+   "ganho_fala_db": 3.7,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 36.494792
+   }
+  },
+  {
+   "n": 5,
+   "clipe": "MVI_0586",
+   "arquivo": "MVI_0586.MP4",
+   "texto": "Poder juntar os meus favoritos, hambúrguer e uma cervejinha.",
+   "motivo": "resposta direta, hambúrguer + cerveja",
+   "timeline_in_f": 954,
+   "timeline_out_f": 1111,
+   "timeline_in_tc": "00:00:31:24",
+   "in_s": 3.85,
+   "out_s": 9.083,
+   "fala_fim_s": 8.44,
+   "rotacao": "cw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "ganho_fala_db": -0.4,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 9.426083
+   }
+  },
+  {
+   "n": 6,
+   "clipe": "MVI_0589",
+   "arquivo": "MVI_0589.MP4",
+   "texto": "O dia oficial de renovar meu [trecho final incerto na transcrição].",
+   "motivo": "resposta direta (sem o 'porque é'); pouco movimento -> zoom-in",
+   "timeline_in_f": 1111,
+   "timeline_out_f": 1205,
+   "timeline_in_tc": "00:00:37:01",
+   "in_s": 3.67,
+   "out_s": 6.803,
+   "fala_fim_s": 6.64,
+   "rotacao": "ccw",
+   "zoom": true,
+   "zoom_fim": 1.12,
+   "ganho_fala_db": -3.6,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 8.133125
+   }
+  },
+  {
+   "n": 7,
+   "clipe": "MVI_0590",
+   "arquivo": "MVI_0590.MP4",
+   "texto": "Comer, gente. Sem dúvida!",
+   "motivo": "fechamento curto e enfático",
+   "timeline_in_f": 1205,
+   "timeline_out_f": 1299,
+   "timeline_in_tc": "00:00:40:05",
+   "in_s": 4.12,
+   "out_s": 7.253,
+   "fala_fim_s": 6.3,
+   "rotacao": "ccw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "ganho_fala_db": 2.4,
+   "transicao_entrada": "corte",
+   "fade_out": true,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 7.465792
+   }
+  }
+ ]
+}

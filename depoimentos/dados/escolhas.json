@@ -1,0 +1,80 @@
+{
+ "_doc": "Ordem dos depoimentos. resposta_ini/fim = 1ª e última palavra da resposta (s no original, da transcrição). proxima_fala_s = início da próxima fala que NÃO pode entrar (limite do out). zoom: zoom-in lento no plano. janela_entrada (opcional): [a,b] onde procurar o silêncio de entrada, quando a 1ª palavra está colada na anterior.",
+ "musica": {
+  "arquivo": "Feels Good (Instrumental).mp4",
+  "inicio": 49.667,
+  "fade_out_s": 1.5,
+  "volume_fala_db": -26,
+  "volume_livre_db": -16
+ },
+ "cauda_final_s": 1.0,
+ "planos": [
+  {
+   "clipe": "MVI_0585",
+   "resposta_ini": 1.74,
+   "resposta_fim": 14.6,
+   "proxima_fala_s": null,
+   "zoom": false,
+   "texto": "A minha parte favorita do Quintão definitivamente é o T.T. Trufado, que é esse hambúrguer que eu pedi, e ainda mais para completar esse ponto. Gente, olha só isso, a carne mal passada do jeitinho que eu gosto.",
+   "motivo": "abertura: depoimento mais empolgado (maior escore de volume/tom/gestos) e mostra o burger; única resposta inteira, com 'minha parte favorita...'"
+  },
+  {
+   "clipe": "MVI_0588",
+   "resposta_ini": 17.22,
+   "resposta_fim": 21.62,
+   "proxima_fala_s": null,
+   "zoom": false,
+   "texto": "Poder provar à vontade o chopp da Mabros e comer aquele hambúrguer gostoso de verdade.",
+   "motivo": "2º mais empolgado; entra direto na resposta",
+   "janela_entrada": [
+    17.21,
+    17.23
+   ]
+  },
+  {
+   "clipe": "MVI_0587",
+   "resposta_ini": 5.06,
+   "resposta_fim": 9.4,
+   "proxima_fala_s": null,
+   "zoom": true,
+   "texto": "Toda semana provar um hambúrguer diferente para saber qual combina com meu paladar.",
+   "motivo": "resposta direta; pouco movimento de câmera -> zoom-in"
+  },
+  {
+   "clipe": "MVI_0598",
+   "resposta_ini": 18.88,
+   "resposta_fim": 27.18,
+   "proxima_fala_s": 27.78,
+   "zoom": true,
+   "texto": "Poder sair do trabalho numa quinta-feira ali, pré-final de semana, comer um hambúrguer, que o do T.T. é o melhor que tem, tomar um chopp, dar uma relaxada.",
+   "motivo": "3ª tomada (a mais fluida), cita o T.T.; plano longo e parado -> zoom-in"
+  },
+  {
+   "clipe": "MVI_0586",
+   "resposta_ini": 3.9,
+   "resposta_fim": 8.32,
+   "proxima_fala_s": null,
+   "zoom": false,
+   "texto": "Poder juntar os meus favoritos, hambúrguer e uma cervejinha.",
+   "motivo": "resposta direta, hambúrguer + cerveja"
+  },
+  {
+   "clipe": "MVI_0589",
+   "resposta_ini": 3.66,
+   "resposta_fim": 6.48,
+   "proxima_fala_s": null,
+   "zoom": true,
+   "texto": "O dia oficial de renovar meu [trecho final incerto na transcrição].",
+   "motivo": "resposta direta (sem o 'porque é'); pouco movimento -> zoom-in"
+  },
+  {
+   "clipe": "MVI_0590",
+   "resposta_ini": 4.12,
+   "resposta_fim": 6.3,
+   "proxima_fala_s": null,
+   "zoom": false,
+   "texto": "Comer, gente. Sem dúvida!",
+   "motivo": "fechamento curto e enfático"
+  }
+ ]
+}

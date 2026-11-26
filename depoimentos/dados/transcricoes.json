@@ -1,0 +1,1446 @@
+{
+ "MVI_0585.MP4": [
+  {
+   "ini": 1.68,
+   "fim": 7.18,
+   "texto": "A minha parte favorita do quintão definitivamente é o tete trufado que é esse hamburguer que",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 1.68,
+     "fim": 2.28,
+     "prob": 0.62
+    },
+    {
+     "p": "minha",
+     "ini": 2.28,
+     "fim": 2.5,
+     "prob": 0.99
+    },
+    {
+     "p": "parte",
+     "ini": 2.5,
+     "fim": 2.84,
+     "prob": 0.99
+    },
+    {
+     "p": "favorita",
+     "ini": 2.84,
+     "fim": 3.42,
+     "prob": 0.96
+    },
+    {
+     "p": "do",
+     "ini": 3.42,
+     "fim": 3.56,
+     "prob": 0.94
+    },
+    {
+     "p": "quintão",
+     "ini": 3.56,
+     "fim": 3.92,
+     "prob": 0.48
+    },
+    {
+     "p": "definitivamente",
+     "ini": 3.92,
+     "fim": 4.9,
+     "prob": 0.93
+    },
+    {
+     "p": "é",
+     "ini": 4.9,
+     "fim": 5.22,
+     "prob": 0.91
+    },
+    {
+     "p": "o",
+     "ini": 5.22,
+     "fim": 5.36,
+     "prob": 0.98
+    },
+    {
+     "p": "tete",
+     "ini": 5.36,
+     "fim": 5.64,
+     "prob": 0.56
+    },
+    {
+     "p": "trufado",
+     "ini": 5.64,
+     "fim": 6.16,
+     "prob": 0.9
+    },
+    {
+     "p": "que",
+     "ini": 6.16,
+     "fim": 6.4,
+     "prob": 0.62
+    },
+    {
+     "p": "é",
+     "ini": 6.4,
+     "fim": 6.58,
+     "prob": 0.98
+    },
+    {
+     "p": "esse",
+     "ini": 6.58,
+     "fim": 6.72,
+     "prob": 0.98
+    },
+    {
+     "p": "hamburguer",
+     "ini": 6.72,
+     "fim": 7.04,
+     "prob": 0.88
+    },
+    {
+     "p": "que",
+     "ini": 7.04,
+     "fim": 7.18,
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "ini": 7.18,
+   "fim": 13.42,
+   "texto": "eu pedi e ainda mais para completar esse ponto, gente olha só isso, a carne mal passada",
+   "palavras": [
+    {
+     "p": "eu",
+     "ini": 7.18,
+     "fim": 7.36,
+     "prob": 0.99
+    },
+    {
+     "p": "pedi",
+     "ini": 7.36,
+     "fim": 7.74,
+     "prob": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 7.74,
+     "fim": 8.16,
+     "prob": 0.58
+    },
+    {
+     "p": "ainda",
+     "ini": 8.16,
+     "fim": 8.52,
+     "prob": 0.95
+    },
+    {
+     "p": "mais",
+     "ini": 8.52,
+     "fim": 8.7,
+     "prob": 1.0
+    },
+    {
+     "p": "para",
+     "ini": 8.7,
+     "fim": 9.0,
+     "prob": 0.53
+    },
+    {
+     "p": "completar",
+     "ini": 9.0,
+     "fim": 9.96,
+     "prob": 1.0
+    },
+    {
+     "p": "esse",
+     "ini": 9.96,
+     "fim": 10.32,
+     "prob": 0.84
+    },
+    {
+     "p": "ponto,",
+     "ini": 10.32,
+     "fim": 10.72,
+     "prob": 0.99
+    },
+    {
+     "p": "gente",
+     "ini": 11.0,
+     "fim": 11.12,
+     "prob": 0.97
+    },
+    {
+     "p": "olha",
+     "ini": 11.12,
+     "fim": 11.48,
+     "prob": 0.37
+    },
+    {
+     "p": "só",
+     "ini": 11.48,
+     "fim": 11.78,
+     "prob": 1.0
+    },
+    {
+     "p": "isso,",
+     "ini": 11.78,
+     "fim": 12.16,
+     "prob": 0.99
+    },
+    {
+     "p": "a",
+     "ini": 12.36,
+     "fim": 12.5,
+     "prob": 0.98
+    },
+    {
+     "p": "carne",
+     "ini": 12.5,
+     "fim": 12.7,
+     "prob": 1.0
+    },
+    {
+     "p": "mal",
+     "ini": 12.7,
+     "fim": 13.0,
+     "prob": 0.97
+    },
+    {
+     "p": "passada",
+     "ini": 13.0,
+     "fim": 13.42,
+     "prob": 0.96
+    }
+   ]
+  },
+  {
+   "ini": 13.42,
+   "fim": 14.6,
+   "texto": "do jeitinho que eu gosto.",
+   "palavras": [
+    {
+     "p": "do",
+     "ini": 13.42,
+     "fim": 13.64,
+     "prob": 0.88
+    },
+    {
+     "p": "jeitinho",
+     "ini": 13.64,
+     "fim": 14.02,
+     "prob": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 14.02,
+     "fim": 14.14,
+     "prob": 0.99
+    },
+    {
+     "p": "eu",
+     "ini": 14.14,
+     "fim": 14.34,
+     "prob": 0.99
+    },
+    {
+     "p": "gosto.",
+     "ini": 14.34,
+     "fim": 14.6,
+     "prob": 1.0
+    }
+   ]
+  }
+ ],
+ "MVI_0586.MP4": [
+  {
+   "ini": 1.58,
+   "fim": 8.32,
+   "texto": "Minha parte favorita do quinto é poder juntar os meus favoritos, hambúrguer e uma cervejinha.",
+   "palavras": [
+    {
+     "p": "Minha",
+     "ini": 1.58,
+     "fim": 2.26,
+     "prob": 0.85
+    },
+    {
+     "p": "parte",
+     "ini": 2.26,
+     "fim": 2.6,
+     "prob": 1.0
+    },
+    {
+     "p": "favorita",
+     "ini": 2.6,
+     "fim": 3.2,
+     "prob": 0.99
+    },
+    {
+     "p": "do",
+     "ini": 3.2,
+     "fim": 3.38,
+     "prob": 0.98
+    },
+    {
+     "p": "quinto",
+     "ini": 3.38,
+     "fim": 3.66,
+     "prob": 0.66
+    },
+    {
+     "p": "é",
+     "ini": 3.66,
+     "fim": 3.82,
+     "prob": 0.34
+    },
+    {
+     "p": "poder",
+     "ini": 3.82,
+     "fim": 4.16,
+     "prob": 0.9
+    },
+    {
+     "p": "juntar",
+     "ini": 4.16,
+     "fim": 4.68,
+     "prob": 1.0
+    },
+    {
+     "p": "os",
+     "ini": 4.68,
+     "fim": 4.88,
+     "prob": 0.9
+    },
+    {
+     "p": "meus",
+     "ini": 4.88,
+     "fim": 5.14,
+     "prob": 1.0
+    },
+    {
+     "p": "favoritos,",
+     "ini": 5.14,
+     "fim": 6.22,
+     "prob": 1.0
+    },
+    {
+     "p": "hambúrguer",
+     "ini": 6.46,
+     "fim": 7.24,
+     "prob": 0.98
+    },
+    {
+     "p": "e",
+     "ini": 7.24,
+     "fim": 7.5,
+     "prob": 0.98
+    },
+    {
+     "p": "uma",
+     "ini": 7.5,
+     "fim": 7.68,
+     "prob": 0.99
+    },
+    {
+     "p": "cervejinha.",
+     "ini": 7.68,
+     "fim": 8.32,
+     "prob": 1.0
+    }
+   ]
+  }
+ ],
+ "MVI_0587.MP4": [
+  {
+   "ini": 1.18,
+   "fim": 9.4,
+   "texto": "A minha parte favorita do quinto é toda semana provar um hambúrguer diferente para saber qual combina com meu paladar.",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 1.18,
+     "fim": 1.98,
+     "prob": 0.79
+    },
+    {
+     "p": "minha",
+     "ini": 1.98,
+     "fim": 2.28,
+     "prob": 1.0
+    },
+    {
+     "p": "parte",
+     "ini": 2.28,
+     "fim": 2.68,
+     "prob": 0.99
+    },
+    {
+     "p": "favorita",
+     "ini": 2.68,
+     "fim": 3.34,
+     "prob": 0.99
+    },
+    {
+     "p": "do",
+     "ini": 3.34,
+     "fim": 3.52,
+     "prob": 0.96
+    },
+    {
+     "p": "quinto",
+     "ini": 3.52,
+     "fim": 3.92,
+     "prob": 0.64
+    },
+    {
+     "p": "é",
+     "ini": 3.92,
+     "fim": 4.72,
+     "prob": 0.98
+    },
+    {
+     "p": "toda",
+     "ini": 4.72,
+     "fim": 5.32,
+     "prob": 0.59
+    },
+    {
+     "p": "semana",
+     "ini": 5.32,
+     "fim": 5.84,
+     "prob": 0.85
+    },
+    {
+     "p": "provar",
+     "ini": 5.84,
+     "fim": 6.24,
+     "prob": 0.99
+    },
+    {
+     "p": "um",
+     "ini": 6.24,
+     "fim": 6.4,
+     "prob": 0.98
+    },
+    {
+     "p": "hambúrguer",
+     "ini": 6.4,
+     "fim": 6.82,
+     "prob": 0.88
+    },
+    {
+     "p": "diferente",
+     "ini": 6.82,
+     "fim": 7.26,
+     "prob": 0.99
+    },
+    {
+     "p": "para",
+     "ini": 7.26,
+     "fim": 7.48,
+     "prob": 0.53
+    },
+    {
+     "p": "saber",
+     "ini": 7.48,
+     "fim": 7.8,
+     "prob": 0.98
+    },
+    {
+     "p": "qual",
+     "ini": 7.8,
+     "fim": 8.1,
+     "prob": 1.0
+    },
+    {
+     "p": "combina",
+     "ini": 8.1,
+     "fim": 8.56,
+     "prob": 0.98
+    },
+    {
+     "p": "com",
+     "ini": 8.56,
+     "fim": 8.68,
+     "prob": 0.95
+    },
+    {
+     "p": "meu",
+     "ini": 8.68,
+     "fim": 8.84,
+     "prob": 0.47
+    },
+    {
+     "p": "paladar.",
+     "ini": 8.84,
+     "fim": 9.4,
+     "prob": 0.84
+    }
+   ]
+  }
+ ],
+ "MVI_0588.MP4": [
+  {
+   "ini": 0.0,
+   "fim": 1.18,
+   "texto": "Calma aí, meu cabelo!",
+   "palavras": [
+    {
+     "p": "Calma",
+     "ini": 0.0,
+     "fim": 0.42,
+     "prob": 0.81
+    },
+    {
+     "p": "aí,",
+     "ini": 0.42,
+     "fim": 0.5,
+     "prob": 0.72
+    },
+    {
+     "p": "meu",
+     "ini": 0.6,
+     "fim": 0.64,
+     "prob": 0.95
+    },
+    {
+     "p": "cabelo!",
+     "ini": 0.64,
+     "fim": 1.18,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 1.34,
+   "fim": 2.8,
+   "texto": "Eu acho que a segunda nunca vai gostar.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 1.34,
+     "fim": 1.42,
+     "prob": 0.24
+    },
+    {
+     "p": "acho",
+     "ini": 1.42,
+     "fim": 1.54,
+     "prob": 0.34
+    },
+    {
+     "p": "que",
+     "ini": 1.54,
+     "fim": 1.58,
+     "prob": 1.0
+    },
+    {
+     "p": "a",
+     "ini": 1.58,
+     "fim": 1.64,
+     "prob": 0.35
+    },
+    {
+     "p": "segunda",
+     "ini": 1.64,
+     "fim": 1.88,
+     "prob": 0.79
+    },
+    {
+     "p": "nunca",
+     "ini": 1.88,
+     "fim": 2.18,
+     "prob": 0.1
+    },
+    {
+     "p": "vai",
+     "ini": 2.18,
+     "fim": 2.32,
+     "prob": 0.69
+    },
+    {
+     "p": "gostar.",
+     "ini": 2.32,
+     "fim": 2.8,
+     "prob": 0.61
+    }
+   ]
+  },
+  {
+   "ini": 13.42,
+   "fim": 14.38,
+   "texto": "Pode falar?",
+   "palavras": [
+    {
+     "p": "Pode",
+     "ini": 13.42,
+     "fim": 13.9,
+     "prob": 0.74
+    },
+    {
+     "p": "falar?",
+     "ini": 13.9,
+     "fim": 14.38,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 15.28,
+   "fim": 16.98,
+   "texto": "Minha parte favorita do quentão",
+   "palavras": [
+    {
+     "p": "Minha",
+     "ini": 15.28,
+     "fim": 15.44,
+     "prob": 0.94
+    },
+    {
+     "p": "parte",
+     "ini": 15.44,
+     "fim": 15.76,
+     "prob": 1.0
+    },
+    {
+     "p": "favorita",
+     "ini": 15.76,
+     "fim": 16.4,
+     "prob": 0.99
+    },
+    {
+     "p": "do",
+     "ini": 16.4,
+     "fim": 16.54,
+     "prob": 0.98
+    },
+    {
+     "p": "quentão",
+     "ini": 16.54,
+     "fim": 16.98,
+     "prob": 0.42
+    }
+   ]
+  },
+  {
+   "ini": 16.98,
+   "fim": 19.74,
+   "texto": "é poder provar à vontade o Shop da Marbury's",
+   "palavras": [
+    {
+     "p": "é",
+     "ini": 16.98,
+     "fim": 17.22,
+     "prob": 0.92
+    },
+    {
+     "p": "poder",
+     "ini": 17.22,
+     "fim": 17.44,
+     "prob": 0.9
+    },
+    {
+     "p": "provar",
+     "ini": 17.44,
+     "fim": 17.84,
+     "prob": 1.0
+    },
+    {
+     "p": "à",
+     "ini": 17.84,
+     "fim": 17.88,
+     "prob": 0.48
+    },
+    {
+     "p": "vontade",
+     "ini": 17.88,
+     "fim": 18.4,
+     "prob": 0.91
+    },
+    {
+     "p": "o",
+     "ini": 18.4,
+     "fim": 18.8,
+     "prob": 0.97
+    },
+    {
+     "p": "Shop",
+     "ini": 18.8,
+     "fim": 18.94,
+     "prob": 0.23
+    },
+    {
+     "p": "da",
+     "ini": 18.94,
+     "fim": 19.18,
+     "prob": 0.75
+    },
+    {
+     "p": "Marbury's",
+     "ini": 19.18,
+     "fim": 19.74,
+     "prob": 0.49
+    }
+   ]
+  },
+  {
+   "ini": 19.74,
+   "fim": 21.62,
+   "texto": "e comer aquele hambúrguer gostoso de verdade.",
+   "palavras": [
+    {
+     "p": "e",
+     "ini": 19.74,
+     "fim": 19.84,
+     "prob": 0.9
+    },
+    {
+     "p": "comer",
+     "ini": 19.84,
+     "fim": 20.04,
+     "prob": 0.99
+    },
+    {
+     "p": "aquele",
+     "ini": 20.04,
+     "fim": 20.24,
+     "prob": 1.0
+    },
+    {
+     "p": "hambúrguer",
+     "ini": 20.24,
+     "fim": 20.56,
+     "prob": 0.92
+    },
+    {
+     "p": "gostoso",
+     "ini": 20.56,
+     "fim": 21.08,
+     "prob": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 21.08,
+     "fim": 21.26,
+     "prob": 0.83
+    },
+    {
+     "p": "verdade.",
+     "ini": 21.26,
+     "fim": 21.62,
+     "prob": 1.0
+    }
+   ]
+  }
+ ],
+ "MVI_0589.MP4": [
+  {
+   "ini": 1.04,
+   "fim": 6.48,
+   "texto": "Minha parte favorita do Quintão é porque é o dia oficial de renovar meu kiteshop de Goiabara.",
+   "palavras": [
+    {
+     "p": "Minha",
+     "ini": 1.04,
+     "fim": 1.64,
+     "prob": 0.84
+    },
+    {
+     "p": "parte",
+     "ini": 1.64,
+     "fim": 2.02,
+     "prob": 0.99
+    },
+    {
+     "p": "favorita",
+     "ini": 2.02,
+     "fim": 2.62,
+     "prob": 0.99
+    },
+    {
+     "p": "do",
+     "ini": 2.62,
+     "fim": 2.76,
+     "prob": 0.96
+    },
+    {
+     "p": "Quintão",
+     "ini": 2.76,
+     "fim": 3.24,
+     "prob": 0.78
+    },
+    {
+     "p": "é",
+     "ini": 3.24,
+     "fim": 3.4,
+     "prob": 0.81
+    },
+    {
+     "p": "porque",
+     "ini": 3.4,
+     "fim": 3.52,
+     "prob": 0.66
+    },
+    {
+     "p": "é",
+     "ini": 3.52,
+     "fim": 3.66,
+     "prob": 0.97
+    },
+    {
+     "p": "o",
+     "ini": 3.66,
+     "fim": 3.84,
+     "prob": 0.98
+    },
+    {
+     "p": "dia",
+     "ini": 3.84,
+     "fim": 4.08,
+     "prob": 0.95
+    },
+    {
+     "p": "oficial",
+     "ini": 4.08,
+     "fim": 4.64,
+     "prob": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 4.64,
+     "fim": 4.88,
+     "prob": 0.98
+    },
+    {
+     "p": "renovar",
+     "ini": 4.88,
+     "fim": 5.24,
+     "prob": 1.0
+    },
+    {
+     "p": "meu",
+     "ini": 5.24,
+     "fim": 5.36,
+     "prob": 0.9
+    },
+    {
+     "p": "kiteshop",
+     "ini": 5.36,
+     "fim": 5.76,
+     "prob": 0.64
+    },
+    {
+     "p": "de",
+     "ini": 5.76,
+     "fim": 5.94,
+     "prob": 0.94
+    },
+    {
+     "p": "Goiabara.",
+     "ini": 5.94,
+     "fim": 6.48,
+     "prob": 0.77
+    }
+   ]
+  }
+ ],
+ "MVI_0590.MP4": [
+  {
+   "ini": 0.0,
+   "fim": 6.3,
+   "texto": "Minha parte favorita daqui do Kintou é comer, gente. Sem dúvida!",
+   "palavras": [
+    {
+     "p": "Minha",
+     "ini": 0.0,
+     "fim": 1.62,
+     "prob": 0.77
+    },
+    {
+     "p": "parte",
+     "ini": 1.62,
+     "fim": 1.84,
+     "prob": 0.99
+    },
+    {
+     "p": "favorita",
+     "ini": 1.84,
+     "fim": 2.46,
+     "prob": 0.99
+    },
+    {
+     "p": "daqui",
+     "ini": 2.46,
+     "fim": 2.76,
+     "prob": 0.58
+    },
+    {
+     "p": "do",
+     "ini": 2.76,
+     "fim": 2.94,
+     "prob": 0.98
+    },
+    {
+     "p": "Kintou",
+     "ini": 2.94,
+     "fim": 3.5,
+     "prob": 0.55
+    },
+    {
+     "p": "é",
+     "ini": 3.5,
+     "fim": 4.26,
+     "prob": 0.93
+    },
+    {
+     "p": "comer,",
+     "ini": 4.26,
+     "fim": 4.76,
+     "prob": 0.77
+    },
+    {
+     "p": "gente.",
+     "ini": 5.18,
+     "fim": 5.34,
+     "prob": 0.88
+    },
+    {
+     "p": "Sem",
+     "ini": 5.38,
+     "fim": 5.74,
+     "prob": 0.99
+    },
+    {
+     "p": "dúvida!",
+     "ini": 5.74,
+     "fim": 6.3,
+     "prob": 0.98
+    }
+   ]
+  }
+ ],
+ "MVI_0598.MP4": [
+  {
+   "ini": 3.9,
+   "fim": 8.9,
+   "texto": "A melhor parte do quinto é poder sair do trabalho na quinta-feira, pré-final de semana,",
+   "palavras": [
+    {
+     "p": "A",
+     "ini": 3.9,
+     "fim": 4.34,
+     "prob": 0.03
+    },
+    {
+     "p": "melhor",
+     "ini": 4.34,
+     "fim": 4.78,
+     "prob": 0.72
+    },
+    {
+     "p": "parte",
+     "ini": 4.78,
+     "fim": 5.06,
+     "prob": 0.99
+    },
+    {
+     "p": "do",
+     "ini": 5.06,
+     "fim": 5.2,
+     "prob": 0.95
+    },
+    {
+     "p": "quinto",
+     "ini": 5.2,
+     "fim": 5.56,
+     "prob": 0.78
+    },
+    {
+     "p": "é",
+     "ini": 5.56,
+     "fim": 6.04,
+     "prob": 0.57
+    },
+    {
+     "p": "poder",
+     "ini": 6.04,
+     "fim": 6.5,
+     "prob": 0.17
+    },
+    {
+     "p": "sair",
+     "ini": 6.5,
+     "fim": 6.64,
+     "prob": 0.94
+    },
+    {
+     "p": "do",
+     "ini": 6.64,
+     "fim": 6.8,
+     "prob": 0.98
+    },
+    {
+     "p": "trabalho",
+     "ini": 6.8,
+     "fim": 7.2,
+     "prob": 0.97
+    },
+    {
+     "p": "na",
+     "ini": 7.2,
+     "fim": 7.38,
+     "prob": 0.61
+    },
+    {
+     "p": "quinta",
+     "ini": 7.38,
+     "fim": 7.76,
+     "prob": 0.99
+    },
+    {
+     "p": "-feira,",
+     "ini": 7.76,
+     "fim": 7.98,
+     "prob": 0.86
+    },
+    {
+     "p": "pré",
+     "ini": 8.08,
+     "fim": 8.18,
+     "prob": 0.9
+    },
+    {
+     "p": "-final",
+     "ini": 8.18,
+     "fim": 8.4,
+     "prob": 0.92
+    },
+    {
+     "p": "de",
+     "ini": 8.4,
+     "fim": 8.56,
+     "prob": 0.97
+    },
+    {
+     "p": "semana,",
+     "ini": 8.56,
+     "fim": 8.9,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 9.22,
+   "fim": 10.86,
+   "texto": "vir aqui comer um hambúrguer.",
+   "palavras": [
+    {
+     "p": "vir",
+     "ini": 9.22,
+     "fim": 9.24,
+     "prob": 0.26
+    },
+    {
+     "p": "aqui",
+     "ini": 9.24,
+     "fim": 9.52,
+     "prob": 0.96
+    },
+    {
+     "p": "comer",
+     "ini": 9.52,
+     "fim": 9.68,
+     "prob": 0.82
+    },
+    {
+     "p": "um",
+     "ini": 9.68,
+     "fim": 10.14,
+     "prob": 0.95
+    },
+    {
+     "p": "hambúrguer.",
+     "ini": 10.14,
+     "fim": 10.86,
+     "prob": 0.94
+    }
+   ]
+  },
+  {
+   "ini": 11.04,
+   "fim": 21.9,
+   "texto": "O melhor inclusive é poder sair do trabalho numa quinta-feira, pré-final de semana,",
+   "palavras": [
+    {
+     "p": "O",
+     "ini": 11.04,
+     "fim": 11.04,
+     "prob": 0.75
+    },
+    {
+     "p": "melhor",
+     "ini": 11.04,
+     "fim": 11.42,
+     "prob": 0.99
+    },
+    {
+     "p": "inclusive",
+     "ini": 11.42,
+     "fim": 12.04,
+     "prob": 0.48
+    },
+    {
+     "p": "é",
+     "ini": 12.04,
+     "fim": 16.78,
+     "prob": 0.65
+    },
+    {
+     "p": "poder",
+     "ini": 16.78,
+     "fim": 17.86,
+     "prob": 0.03
+    },
+    {
+     "p": "sair",
+     "ini": 17.86,
+     "fim": 19.52,
+     "prob": 0.91
+    },
+    {
+     "p": "do",
+     "ini": 19.52,
+     "fim": 19.66,
+     "prob": 0.96
+    },
+    {
+     "p": "trabalho",
+     "ini": 19.66,
+     "fim": 20.02,
+     "prob": 0.99
+    },
+    {
+     "p": "numa",
+     "ini": 20.02,
+     "fim": 20.24,
+     "prob": 0.72
+    },
+    {
+     "p": "quinta",
+     "ini": 20.24,
+     "fim": 20.62,
+     "prob": 1.0
+    },
+    {
+     "p": "-feira,",
+     "ini": 20.62,
+     "fim": 20.94,
+     "prob": 0.99
+    },
+    {
+     "p": "pré",
+     "ini": 21.06,
+     "fim": 21.14,
+     "prob": 0.86
+    },
+    {
+     "p": "-final",
+     "ini": 21.14,
+     "fim": 21.38,
+     "prob": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 21.38,
+     "fim": 21.56,
+     "prob": 1.0
+    },
+    {
+     "p": "semana,",
+     "ini": 21.56,
+     "fim": 21.9,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 22.18,
+   "fim": 27.18,
+   "texto": "comer um hambúrguer, que o do TT é o melhor que tem, tomar um chup, dar uma relaxada.",
+   "palavras": [
+    {
+     "p": "comer",
+     "ini": 22.18,
+     "fim": 22.32,
+     "prob": 0.97
+    },
+    {
+     "p": "um",
+     "ini": 22.32,
+     "fim": 22.44,
+     "prob": 0.87
+    },
+    {
+     "p": "hambúrguer,",
+     "ini": 22.44,
+     "fim": 23.28,
+     "prob": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 23.4,
+     "fim": 23.4,
+     "prob": 0.7
+    },
+    {
+     "p": "o",
+     "ini": 23.4,
+     "fim": 24.0,
+     "prob": 0.42
+    },
+    {
+     "p": "do",
+     "ini": 24.0,
+     "fim": 24.12,
+     "prob": 0.41
+    },
+    {
+     "p": "TT",
+     "ini": 24.12,
+     "fim": 24.34,
+     "prob": 0.89
+    },
+    {
+     "p": "é",
+     "ini": 24.34,
+     "fim": 24.42,
+     "prob": 0.98
+    },
+    {
+     "p": "o",
+     "ini": 24.42,
+     "fim": 24.44,
+     "prob": 1.0
+    },
+    {
+     "p": "melhor",
+     "ini": 24.44,
+     "fim": 24.7,
+     "prob": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 24.7,
+     "fim": 24.9,
+     "prob": 0.94
+    },
+    {
+     "p": "tem,",
+     "ini": 24.9,
+     "fim": 25.1,
+     "prob": 1.0
+    },
+    {
+     "p": "tomar",
+     "ini": 25.44,
+     "fim": 25.66,
+     "prob": 0.99
+    },
+    {
+     "p": "um",
+     "ini": 25.66,
+     "fim": 25.88,
+     "prob": 1.0
+    },
+    {
+     "p": "chup,",
+     "ini": 25.88,
+     "fim": 26.0,
+     "prob": 0.4
+    },
+    {
+     "p": "dar",
+     "ini": 26.04,
+     "fim": 26.18,
+     "prob": 0.95
+    },
+    {
+     "p": "uma",
+     "ini": 26.18,
+     "fim": 26.44,
+     "prob": 1.0
+    },
+    {
+     "p": "relaxada.",
+     "ini": 26.44,
+     "fim": 27.18,
+     "prob": 0.98
+    }
+   ]
+  },
+  {
+   "ini": 27.76,
+   "fim": 28.88,
+   "texto": "E é isso, cara.",
+   "palavras": [
+    {
+     "p": "E",
+     "ini": 27.76,
+     "fim": 27.8,
+     "prob": 0.68
+    },
+    {
+     "p": "é",
+     "ini": 27.8,
+     "fim": 27.88,
+     "prob": 0.99
+    },
+    {
+     "p": "isso,",
+     "ini": 27.88,
+     "fim": 28.02,
+     "prob": 1.0
+    },
+    {
+     "p": "cara.",
+     "ini": 28.16,
+     "fim": 28.88,
+     "prob": 0.51
+    }
+   ]
+  },
+  {
+   "ini": 29.36,
+   "fim": 34.2,
+   "texto": "Sempre que encontra alguém conhecido, a gente fica na resenha, conversa, toma um chup,",
+   "palavras": [
+    {
+     "p": "Sempre",
+     "ini": 29.36,
+     "fim": 29.76,
+     "prob": 0.32
+    },
+    {
+     "p": "que",
+     "ini": 29.76,
+     "fim": 30.16,
+     "prob": 0.92
+    },
+    {
+     "p": "encontra",
+     "ini": 30.16,
+     "fim": 30.2,
+     "prob": 0.63
+    },
+    {
+     "p": "alguém",
+     "ini": 30.2,
+     "fim": 30.7,
+     "prob": 0.98
+    },
+    {
+     "p": "conhecido,",
+     "ini": 30.7,
+     "fim": 31.46,
+     "prob": 0.98
+    },
+    {
+     "p": "a",
+     "ini": 31.68,
+     "fim": 31.68,
+     "prob": 0.3
+    },
+    {
+     "p": "gente",
+     "ini": 31.68,
+     "fim": 32.0,
+     "prob": 1.0
+    },
+    {
+     "p": "fica",
+     "ini": 32.0,
+     "fim": 32.44,
+     "prob": 0.97
+    },
+    {
+     "p": "na",
+     "ini": 32.44,
+     "fim": 32.58,
+     "prob": 0.97
+    },
+    {
+     "p": "resenha,",
+     "ini": 32.58,
+     "fim": 33.12,
+     "prob": 0.98
+    },
+    {
+     "p": "conversa,",
+     "ini": 33.34,
+     "fim": 33.72,
+     "prob": 0.99
+    },
+    {
+     "p": "toma",
+     "ini": 33.82,
+     "fim": 33.92,
+     "prob": 0.93
+    },
+    {
+     "p": "um",
+     "ini": 33.92,
+     "fim": 34.1,
+     "prob": 0.89
+    },
+    {
+     "p": "chup,",
+     "ini": 34.1,
+     "fim": 34.2,
+     "prob": 0.1
+    }
+   ]
+  },
+  {
+   "ini": 34.34,
+   "fim": 35.8,
+   "texto": "come um hambúrguer, e é isso.",
+   "palavras": [
+    {
+     "p": "come",
+     "ini": 34.34,
+     "fim": 34.44,
+     "prob": 0.2
+    },
+    {
+     "p": "um",
+     "ini": 34.44,
+     "fim": 34.64,
+     "prob": 0.22
+    },
+    {
+     "p": "hambúrguer,",
+     "ini": 34.64,
+     "fim": 35.32,
+     "prob": 0.97
+    },
+    {
+     "p": "e",
+     "ini": 35.46,
+     "fim": 35.54,
+     "prob": 0.89
+    },
+    {
+     "p": "é",
+     "ini": 35.54,
+     "fim": 35.62,
+     "prob": 1.0
+    },
+    {
+     "p": "isso.",
+     "ini": 35.62,
+     "fim": 35.8,
+     "prob": 1.0
+    }
+   ]
+  }
+ ]
+}
