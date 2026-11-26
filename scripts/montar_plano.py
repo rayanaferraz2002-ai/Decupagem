@@ -25,7 +25,13 @@ rot = {c: "cw" for c in ori["cw"]} | {c: "ccw" for c in ori["ccw"]}
 fix = {}
 if A.fixar and os.path.exists(A.fixar):
     for p in json.load(open(A.fixar))["planos"]:
-        fix[(p["clipe"], tuple(p["janela"]), p["batidas"])] = p["in_s"]
+        if p.get("faixa"):
+            if "continuação" not in p["nota_escolha"]:
+                fix[(p["clipe"], tuple(p["janela"]), p["faixa"])] = p["in_s"]
+        elif "[tela cheia]" in p["motivo"]:
+            fix[(p["clipe"], tuple(p["janela"]), "cheio")] = p["in_s"]
+        else:
+            fix[(p["clipe"], tuple(p["janela"]), p["batidas"])] = p["in_s"]
 
 m0 = esc["musica"]["inicio"]; nb = esc["musica"]["batidas"]
 beats = [t for t in mus["batidas"] if t >= m0 - 0.02][: nb + 1]  # nb+1 marcas = nb intervalos
@@ -58,43 +64,83 @@ def metricas_finas(proxy, a, b):
     return np.array(ts), np.array(sh), np.array(sk), np.array(br)
 
 
-planos = []; i_beat = 0; n = 0
-for bl in esc["blocos"]:
-    for p in bl["planos"]:
-        n += 1
-        c = p["clipe"]; orig = os.path.join(A.originais, c + ".MP4"); info = probe(orig)
-        f0, f1 = beat_frames[i_beat], beat_frames[i_beat + p["batidas"]]; i_beat += p["batidas"]
-        dur_s = (f1 - f0) / SEQ_FPS
-        handle = 0.2  # sobra para fusões
-        a = max(p["janela"][0], handle); b = min(p["janela"][1], info["dur"] - handle) - dur_s
-        key = (c, tuple(p["janela"]), p["batidas"])
-        if key in fix:
-            ins = fix[key]; nota = "fixado do plano anterior"
-        elif b <= a:
-            ins = max(0.0, min(p["janela"][0], info["dur"] - dur_s)); nota = "janela justa: usado o início da janela"
-        else:
-            ts, sh, sk, br = metricas_finas(os.path.join(A.proxies, c + ".mp4"), a, b + dur_s)
-            best, ins = -1e9, a
-            for s0 in np.arange(a, b + 1e-6, 1 / 8):
-                m = (ts >= s0) & (ts <= s0 + dur_s)
-                if m.sum() < 2: continue
-                score = np.log1p(sh[m]).mean() - 0.35 * sk[m].mean() - 0.02 * abs(br[m].mean() - 70)
-                if score > best: best, ins = score, float(s0)
-            nota = "melhor trecho por nitidez/tremor/exposição"
-        src_fps = info["fps_num"] / info["fps_den"]
-        planos.append({
-            "n": n, "bloco": bl["bloco"], "nome_bloco": bl["nome"], "clipe": c, "arquivo": c + ".MP4",
-            "janela": p["janela"], "batidas": p["batidas"],
-            "timeline_in_f": f0, "timeline_out_f": f1,
-            "timeline_in_tc": f"00:{f0 // SEQ_FPS // 60:02d}:{f0 // SEQ_FPS % 60:02d}:{f0 % SEQ_FPS:02d}",
-            "in_s": round(ins, 3), "out_s": round(ins + dur_s, 3),
-            "in_src_f": round(ins * src_fps), "out_src_f": round((ins + dur_s) * src_fps),
-            "rotacao": rot[c], "transicao_entrada": p.get("transicao_entrada", "corte"),
-            "fade_out": p.get("fade_out", False), "motivo": p["motivo"], "nota_escolha": nota,
-            "src": {"largura": info["w"], "altura": info["h"], "fps": f"{info['fps_num']}/{info['fps_den']}", "duracao": info["dur"]},
-        })
-        print(f"{n:2d} {planos[-1]['timeline_in_tc']} {c} {rot[c]:3s} in={ins:6.2f}s dur={dur_s:.2f}s {nota}")
+FAIXAS = {"topo": (0.0, 1 / 3), "meio": (1 / 3, 2 / 3), "base": (2 / 3, 1.0)}
+CAMADA = {"meio": "V1", "topo": "V2", "base": "V3"}
 
+
+def tc(f):
+    return f"00:{f // SEQ_FPS // 60:02d}:{f // SEQ_FPS % 60:02d}:{f % SEQ_FPS:02d}"
+
+
+def escolher(c, janela, dur_s, key, info):
+    """melhor início dentro da janela (nitidez alta, pouco tremor, exposição ~70/255)"""
+    handle = 0.2  # sobra para fusões
+    a = max(janela[0], handle); b = min(janela[1], info["dur"] - handle) - dur_s
+    if key in fix:
+        return fix[key], "fixado do plano anterior"
+    if b <= a:
+        return max(0.0, min(janela[0], info["dur"] - dur_s)), "janela justa: usado o início da janela"
+    ts, sh, sk, br = metricas_finas(os.path.join(A.proxies, c + ".mp4"), a, b + dur_s)
+    best, ins = -1e9, a
+    for s0 in np.arange(a, b + 1e-6, 1 / 8):
+        m = (ts >= s0) & (ts <= s0 + dur_s)
+        if m.sum() < 2: continue
+        score = np.log1p(sh[m]).mean() - 0.35 * sk[m].mean() - 0.02 * abs(br[m].mean() - 70)
+        if score > best: best, ins = score, float(s0)
+    return ins, "melhor trecho por nitidez/tremor/exposição"
+
+
+planos = []
+
+
+def add(bl, c, janela, nbat, f0, f1, ins, nota, info, motivo, camada="V1", faixa=None, trans="corte", fade=False):
+    dur_s = (f1 - f0) / SEQ_FPS; src_fps = info["fps_num"] / info["fps_den"]
+    if ins + dur_s > info["dur"] + 1e-3:
+        raise SystemExit(f"ERRO: {c} tem {info['dur']:.2f}s, não cobre {dur_s:.2f}s a partir de {ins:.2f}s. Troque o clipe/janela.")
+    planos.append({
+        "bloco": bl["bloco"], "nome_bloco": bl["nome"], "clipe": c, "arquivo": c + ".MP4",
+        "janela": janela, "batidas": nbat, "camada": camada,
+        "faixa": faixa, "recorte_y": list(FAIXAS[faixa]) if faixa else None,
+        "timeline_in_f": f0, "timeline_out_f": f1, "timeline_in_tc": tc(f0),
+        "in_s": round(ins, 3), "out_s": round(ins + dur_s, 3),
+        "in_src_f": round(ins * src_fps), "out_src_f": round((ins + dur_s) * src_fps),
+        "rotacao": rot[c], "transicao_entrada": trans, "fade_out": fade, "motivo": motivo, "nota_escolha": nota,
+        "src": {"largura": info["w"], "altura": info["h"], "fps": f"{info['fps_num']}/{info['fps_den']}", "duracao": info["dur"]},
+    })
+    print(f"{tc(f0)} {camada} {faixa or 'cheio':5s} {c} {rot[c]:3s} in={ins:6.2f}s dur={dur_s:.2f}s {nota}")
+
+
+i_beat = 0
+for bl in esc["blocos"]:
+    if "mosaico" in bl:
+        M = bl["mosaico"]; b0 = i_beat; nb_m = M["batidas"]; i_beat += nb_m
+        F = lambda k: beat_frames[b0 + k]
+        trocas = M["trocas"]
+        # o painel 'cheio' fica em tela cheia na batida 0 e continua na faixa do meio até a 1ª troca do meio
+        fim_meio = min([t["batida"] for t in trocas if t["faixa"] == "meio"] + [nb_m])
+        ch = M["cheio"]; info = probe(os.path.join(A.originais, ch["clipe"] + ".MP4"))
+        tot = (F(fim_meio) - F(0)) / SEQ_FPS
+        ins, nota = escolher(ch["clipe"], ch["janela"], tot, (ch["clipe"], tuple(ch["janela"]), "cheio"), info)
+        add(bl, ch["clipe"], ch["janela"], 1, F(0), F(1), ins, nota, info, ch["motivo"] + " [tela cheia]")
+        add(bl, ch["clipe"], ch["janela"], fim_meio - 1, F(1), F(fim_meio), ins + (F(1) - F(0)) / SEQ_FPS,
+            "continuação do painel cheio", info, ch["motivo"] + " [faixa do meio]", "V1", "meio")
+        for t in trocas:
+            fim = min([u["batida"] for u in trocas if u["faixa"] == t["faixa"] and u["batida"] > t["batida"]] + [nb_m])
+            info = probe(os.path.join(A.originais, t["clipe"] + ".MP4"))
+            dur = (F(fim) - F(t["batida"])) / SEQ_FPS
+            ins, nota = escolher(t["clipe"], t["janela"], dur, (t["clipe"], tuple(t["janela"]), t["faixa"]), info)
+            add(bl, t["clipe"], t["janela"], fim - t["batida"], F(t["batida"]), F(fim), ins, nota, info, t["motivo"],
+                CAMADA[t["faixa"]], t["faixa"])
+        continue
+    for p in bl["planos"]:
+        c = p["clipe"]; info = probe(os.path.join(A.originais, c + ".MP4"))
+        f0, f1 = beat_frames[i_beat], beat_frames[i_beat + p["batidas"]]; i_beat += p["batidas"]
+        ins, nota = escolher(c, p["janela"], (f1 - f0) / SEQ_FPS, (c, tuple(p["janela"]), p["batidas"]), info)
+        add(bl, c, p["janela"], p["batidas"], f0, f1, ins, nota, info, p["motivo"], trans=p.get("transicao_entrada", "corte"),
+            fade=p.get("fade_out", False))
+
+planos.sort(key=lambda p: (p["timeline_in_f"], p["camada"]))
+for k, p in enumerate(planos): p["n"] = k + 1
 total_f = beat_frames[nb]
 plano = {
     "sequencia": {"largura": 720, "altura": 1280, "fps": SEQ_FPS, "duracao_f": total_f,

@@ -15,18 +15,30 @@ seq = root.find("sequence"); DUR = int(seq.findtext("duration"))
 sc = seq.find("media/video/format/samplecharacteristics")
 if (sc.findtext("width"), sc.findtext("height"), sc.findtext("rate/timebase")) != ("720", "1280", "30"):
     erros.append("formato da sequência diferente de 720x1280@30")
-clips = seq.findall("media/video/track/clipitem")
-if len(clips) != len(P["planos"]): erros.append("nº de clipes difere do plano")
-pos = 0
-for c, p in zip(clips, P["planos"]):
-    s, e, i, o = (int(c.findtext(t)) for t in ("start", "end", "in", "out"))
-    if s != pos: erros.append(f"{c.get('id')}: começa em {s}, esperado {pos}")
-    if e - s != o - i: erros.append(f"{c.get('id')}: duração timeline != duração fonte")
-    if i < 0 or o > int(c.findtext("duration")): erros.append(f"{c.get('id')}: in/out fora da mídia")
-    nome = c.findtext("file/name")
-    if nome != p["arquivo"] or not os.path.exists(os.path.join(orig, nome)): erros.append(f"{nome}: arquivo original não encontrado")
-    pos = e
-if pos != DUR: erros.append(f"V1 termina em {pos}, sequência tem {DUR}")
+tracks = seq.findall("media/video/track")
+todos = P["planos"]; arq = {}
+for c in seq.iter("file"):
+    if c.findtext("name"): arq[c.get("id")] = c.findtext("name")
+for ti, tr in enumerate(tracks):
+    cam = f"V{ti + 1}"; esp = [p for p in todos if p.get("camada", "V1") == cam]
+    clips = tr.findall("clipitem")
+    if len(clips) != len(esp): erros.append(f"{cam}: {len(clips)} clipes, plano tem {len(esp)}")
+    pos = 0 if cam == "V1" else None; fim_ant = 0
+    for c, p in zip(clips, esp):
+        s, e, i, o = (int(c.findtext(t)) for t in ("start", "end", "in", "out"))
+        if cam == "V1" and s != pos: erros.append(f"{c.get('id')}: começa em {s}, esperado {pos} (buraco/sobreposição na V1)")
+        if cam != "V1" and s < fim_ant: erros.append(f"{c.get('id')}: sobreposição na {cam}")
+        if (s, e) != (p["timeline_in_f"], p["timeline_out_f"]): erros.append(f"{c.get('id')}: tempo difere do plano")
+        if e - s != o - i: erros.append(f"{c.get('id')}: duração timeline != duração fonte")
+        if i < 0 or o > int(c.findtext("duration")): erros.append(f"{c.get('id')}: in/out fora da mídia")
+        nome = arq.get(c.find("file").get("id"))
+        if nome != p["arquivo"] or not os.path.exists(os.path.join(orig, nome)): erros.append(f"{nome}: arquivo original não encontrado")
+        if p.get("faixa"):
+            cr = {q.findtext("parameterid"): float(q.findtext("value")) for q in c.findall("filter/effect[effectid='crop']/parameter")}
+            if not cr or abs(cr["left"] + cr["right"] - 100 * (1 - (p["recorte_y"][1] - p["recorte_y"][0]))) > 0.01:
+                erros.append(f"{c.get('id')}: recorte do mosaico ausente/errado")
+        pos = e; fim_ant = e
+    if cam == "V1" and pos != DUR: erros.append(f"V1 termina em {pos}, sequência tem {DUR}")
 for t in seq.findall("media/video/track/transitionitem"):
     if int(t.findtext("end")) <= int(t.findtext("start")): erros.append("transição com duração inválida")
 mus = seq.findall("media/audio/track/clipitem")
@@ -36,9 +48,8 @@ otio_msg = "OpenTimelineIO não instalado (pulado)"
 try:
     import opentimelineio as otio
     tl = otio.adapters.read_from_file(xml_p, adapter_name="fcp_xml")
-    v = [t for t in tl.tracks if t.kind == "Video"][0]
-    nclips = len([c for c in v if isinstance(c, otio.schema.Clip)])
-    otio_msg = f"OTIO leu: {len(tl.tracks)} trilhas, {nclips} clipes de vídeo, duração {tl.duration().to_frames()} q @ {tl.duration().rate}"
+    nclips = sum(len([c for c in t if isinstance(c, otio.schema.Clip)]) for t in tl.tracks if t.kind == "Video")
+    otio_msg = f"OTIO leu: {len(tl.tracks)} trilhas, {nclips} clipes de vídeo (V1+V2+V3), duração {tl.duration().to_frames()} q @ {tl.duration().rate}"
     if nclips != len(P["planos"]): erros.append("OTIO: nº de clipes difere")
 except ImportError:
     pass

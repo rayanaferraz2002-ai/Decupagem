@@ -34,25 +34,25 @@
         </format>
         <track>
           <clipitem id="clipitem-1">
-            <name>MVI_0718.MP4</name>
+            <name>MVI_0713.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>524</duration>
+            <duration>84</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
             <start>0</start>
             <end>59</end>
-            <in>458</in>
-            <out>517</out>
-            <file id="file-1">
-              <name>MVI_0718.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0718.MP4</pathurl>
+            <in>6</in>
+            <out>65</out>
+            <file id="file-MVI_0713">
+              <name>MVI_0713.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0713.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>419</duration>
+              <duration>67</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -91,7 +91,7 @@
                   <name>Rotation</name>
                   <valuemin>-8640</valuemin>
                   <valuemax>8640</valuemax>
-                  <value>90</value>
+                  <value>-90</value>
                 </parameter>
                 <parameter>
                   <parameterid>center</parameterid>
@@ -113,10 +113,10 @@
               <ntsc>FALSE</ntsc>
             </rate>
             <start>59</start>
-            <end>89</end>
+            <end>74</end>
             <in>90</in>
-            <out>120</out>
-            <file id="file-2">
+            <out>105</out>
+            <file id="file-MVI_0549">
               <name>MVI_0549.MP4</name>
               <pathurl>file://localhost/MIDIA/MVI_0549.MP4</pathurl>
               <rate>
@@ -176,6 +176,412 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-3">
+            <name>MVI_0549.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>171</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>74</start>
+            <end>119</end>
+            <in>105</in>
+            <out>150</out>
+            <file id="file-MVI_0549"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-4">
+            <name>MVI_0547.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>348</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>119</start>
+            <end>164</end>
+            <in>270</in>
+            <out>315</out>
+            <file id="file-MVI_0547">
+              <name>MVI_0547.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0547.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>278</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-5">
+            <name>MVI_0553.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>103</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>164</start>
+            <end>209</end>
+            <in>6</in>
+            <out>51</out>
+            <file id="file-MVI_0553">
+              <name>MVI_0553.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0553.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>82</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-6">
+            <name>MVI_0557.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>818</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>209</start>
+            <end>254</end>
+            <in>315</in>
+            <out>360</out>
+            <file id="file-MVI_0557">
+              <name>MVI_0557.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0557.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>654</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-7">
             <name>MVI_0668.MP4</name>
             <enabled>TRUE</enabled>
             <duration>204</duration>
@@ -183,11 +589,11 @@
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>89</start>
-            <end>119</end>
-            <in>6</in>
-            <out>36</out>
-            <file id="file-3">
+            <start>254</start>
+            <end>299</end>
+            <in>30</in>
+            <out>75</out>
+            <file id="file-MVI_0668">
               <name>MVI_0668.MP4</name>
               <pathurl>file://localhost/MIDIA/MVI_0668.MP4</pathurl>
               <rate>
@@ -245,311 +651,64 @@
                 </parameter>
               </effect>
             </filter>
-          </clipitem>
-          <clipitem id="clipitem-4">
-            <name>MVI_0719.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>283</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>119</start>
-            <end>149</end>
-            <in>45</in>
-            <out>75</out>
-            <file id="file-4">
-              <name>MVI_0719.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0719.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>226</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
             <filter>
               <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
+                <name>Crop</name>
+                <effectid>crop</effectid>
                 <effectcategory>motion</effectcategory>
                 <effecttype>motion</effecttype>
                 <mediatype>video</mediatype>
                 <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
                   <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
                 </parameter>
                 <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-5">
-            <name>MVI_0578.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>293</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>149</start>
-            <end>179</end>
-            <in>6</in>
-            <out>36</out>
-            <file id="file-5">
-              <name>MVI_0578.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0578.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>234</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
                   <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
+                  <valuemax>100</valuemax>
+                  <value>33.3333</value>
                 </parameter>
                 <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-6">
-            <name>MVI_0696.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>124</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>179</start>
-            <end>209</end>
-            <in>6</in>
-            <out>36</out>
-            <file id="file-6">
-              <name>MVI_0696.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0696.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>99</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
                   <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
                 </parameter>
                 <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-7">
-            <name>MVI_0320.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>180</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>209</start>
-            <end>239</end>
-            <in>90</in>
-            <out>120</out>
-            <file id="file-7">
-              <name>MVI_0320.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0320.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>144</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
                   <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
-                </parameter>
-                <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
                 </parameter>
               </effect>
             </filter>
           </clipitem>
           <clipitem id="clipitem-8">
-            <name>MVI_0323.MP4</name>
+            <name>MVI_0711.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>327</duration>
+            <duration>373</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>239</start>
-            <end>269</end>
-            <in>150</in>
-            <out>180</out>
-            <file id="file-8">
-              <name>MVI_0323.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0323.MP4</pathurl>
+            <start>299</start>
+            <end>329</end>
+            <in>218</in>
+            <out>248</out>
+            <file id="file-MVI_0711">
+              <name>MVI_0711.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0711.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>261</duration>
+              <duration>298</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -602,25 +761,25 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-9">
-            <name>MVI_0697.MP4</name>
+            <name>MVI_0610.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>41</duration>
+            <duration>194</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>269</start>
-            <end>299</end>
-            <in>0</in>
-            <out>30</out>
-            <file id="file-9">
-              <name>MVI_0697.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0697.MP4</pathurl>
+            <start>329</start>
+            <end>359</end>
+            <in>36</in>
+            <out>66</out>
+            <file id="file-MVI_0610">
+              <name>MVI_0610.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0610.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>33</duration>
+              <duration>155</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -673,25 +832,25 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-10">
-            <name>MVI_0333.MP4</name>
+            <name>MVI_0324.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>134</duration>
+            <duration>189</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>299</start>
-            <end>329</end>
+            <start>359</start>
+            <end>389</end>
             <in>6</in>
             <out>36</out>
-            <file id="file-10">
-              <name>MVI_0333.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0333.MP4</pathurl>
+            <file id="file-MVI_0324">
+              <name>MVI_0324.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0324.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>107</duration>
+              <duration>151</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -744,25 +903,25 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-11">
-            <name>MVI_0552.MP4</name>
+            <name>MVI_0332.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>204</duration>
+            <duration>105</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>329</start>
-            <end>359</end>
-            <in>148</in>
-            <out>178</out>
-            <file id="file-11">
-              <name>MVI_0552.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0552.MP4</pathurl>
+            <start>389</start>
+            <end>419</end>
+            <in>6</in>
+            <out>36</out>
+            <file id="file-MVI_0332">
+              <name>MVI_0332.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0332.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>163</duration>
+              <duration>84</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -815,309 +974,25 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-12">
-            <name>MVI_0331.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>79</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>359</start>
-            <end>389</end>
-            <in>28</in>
-            <out>58</out>
-            <file id="file-12">
-              <name>MVI_0331.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0331.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>63</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
-                </parameter>
-                <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-13">
-            <name>MVI_0554.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>103</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>389</start>
-            <end>419</end>
-            <in>45</in>
-            <out>75</out>
-            <file id="file-13">
-              <name>MVI_0554.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0554.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>82</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
-                </parameter>
-                <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-14">
-            <name>MVI_0326.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>168</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>419</start>
-            <end>449</end>
-            <in>124</in>
-            <out>154</out>
-            <file id="file-14">
-              <name>MVI_0326.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0326.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>134</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
-                </parameter>
-                <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-15">
-            <name>MVI_0339.MP4</name>
+            <name>MVI_0717.MP4</name>
             <enabled>TRUE</enabled>
             <duration>110</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>449</start>
-            <end>479</end>
-            <in>6</in>
-            <out>36</out>
-            <file id="file-15">
-              <name>MVI_0339.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0339.MP4</pathurl>
+            <start>419</start>
+            <end>449</end>
+            <in>74</in>
+            <out>104</out>
+            <file id="file-MVI_0717">
+              <name>MVI_0717.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0717.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
               <duration>88</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
-                </parameter>
-                <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-16">
-            <name>MVI_0582.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>211</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>479</start>
-            <end>509</end>
-            <in>47</in>
-            <out>77</out>
-            <file id="file-16">
-              <name>MVI_0582.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0582.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>169</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -1169,26 +1044,168 @@
               </effect>
             </filter>
           </clipitem>
-          <clipitem id="clipitem-17">
-            <name>MVI_0544.MP4</name>
+          <clipitem id="clipitem-13">
+            <name>MVI_0709.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>477</duration>
+            <duration>216</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>449</start>
+            <end>479</end>
+            <in>32</in>
+            <out>62</out>
+            <file id="file-MVI_0709">
+              <name>MVI_0709.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0709.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>173</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-14">
+            <name>MVI_0656.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>159</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>479</start>
+            <end>509</end>
+            <in>6</in>
+            <out>36</out>
+            <file id="file-MVI_0656">
+              <name>MVI_0656.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0656.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>127</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-15">
+            <name>MVI_0704.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>188</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
             <start>509</start>
             <end>539</end>
-            <in>424</in>
-            <out>454</out>
-            <file id="file-17">
-              <name>MVI_0544.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0544.MP4</pathurl>
+            <in>125</in>
+            <out>155</out>
+            <file id="file-MVI_0704">
+              <name>MVI_0704.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0704.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>381</duration>
+              <duration>150</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -1261,6 +1278,148 @@
               <reverse>FALSE</reverse>
             </effect>
           </transitionitem>
+          <clipitem id="clipitem-16">
+            <name>MVI_0541.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>99</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>539</start>
+            <end>600</end>
+            <in>14</in>
+            <out>75</out>
+            <file id="file-MVI_0541">
+              <name>MVI_0541.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0541.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>79</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-17">
+            <name>MVI_0542.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>332</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>600</start>
+            <end>659</end>
+            <in>9</in>
+            <out>68</out>
+            <file id="file-MVI_0542">
+              <name>MVI_0542.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0542.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>265</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
           <clipitem id="clipitem-18">
             <name>MVI_0597.MP4</name>
             <enabled>TRUE</enabled>
@@ -1269,11 +1428,11 @@
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>539</start>
-            <end>600</end>
+            <start>659</start>
+            <end>719</end>
             <in>72</in>
-            <out>133</out>
-            <file id="file-18">
+            <out>132</out>
+            <file id="file-MVI_0597">
               <name>MVI_0597.MP4</name>
               <pathurl>file://localhost/MIDIA/MVI_0597.MP4</pathurl>
               <rate>
@@ -1340,11 +1499,11 @@
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>600</start>
-            <end>659</end>
+            <start>719</start>
+            <end>779</end>
             <in>6</in>
-            <out>65</out>
-            <file id="file-19">
+            <out>66</out>
+            <file id="file-MVI_0710">
               <name>MVI_0710.MP4</name>
               <pathurl>file://localhost/MIDIA/MVI_0710.MP4</pathurl>
               <rate>
@@ -1404,25 +1563,25 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-20">
-            <name>MVI_0711.MP4</name>
+            <name>MVI_0596.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>373</duration>
+            <duration>594</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>659</start>
-            <end>719</end>
-            <in>218</in>
-            <out>278</out>
-            <file id="file-20">
-              <name>MVI_0711.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0711.MP4</pathurl>
+            <start>779</start>
+            <end>839</end>
+            <in>495</in>
+            <out>555</out>
+            <file id="file-MVI_0596">
+              <name>MVI_0596.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0596.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>298</duration>
+              <duration>475</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -1461,7 +1620,7 @@
                   <name>Rotation</name>
                   <valuemin>-8640</valuemin>
                   <valuemax>8640</valuemax>
-                  <value>90</value>
+                  <value>-90</value>
                 </parameter>
                 <parameter>
                   <parameterid>center</parameterid>
@@ -1475,25 +1634,25 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-21">
-            <name>MVI_0610.MP4</name>
+            <name>MVI_0543.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>194</duration>
+            <duration>262</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>719</start>
-            <end>779</end>
-            <in>6</in>
-            <out>66</out>
-            <file id="file-21">
-              <name>MVI_0610.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0610.MP4</pathurl>
+            <start>839</start>
+            <end>899</end>
+            <in>158</in>
+            <out>218</out>
+            <file id="file-MVI_0543">
+              <name>MVI_0543.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0543.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>155</duration>
+              <duration>209</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -1532,7 +1691,7 @@
                   <name>Rotation</name>
                   <valuemin>-8640</valuemin>
                   <valuemax>8640</valuemax>
-                  <value>90</value>
+                  <value>-90</value>
                 </parameter>
                 <parameter>
                   <parameterid>center</parameterid>
@@ -1546,25 +1705,25 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-22">
-            <name>MVI_0656.MP4</name>
+            <name>MVI_0705.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>159</duration>
+            <duration>145</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>779</start>
-            <end>839</end>
-            <in>6</in>
-            <out>66</out>
-            <file id="file-22">
-              <name>MVI_0656.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0656.MP4</pathurl>
+            <start>899</start>
+            <end>958</end>
+            <in>49</in>
+            <out>108</out>
+            <file id="file-MVI_0705">
+              <name>MVI_0705.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0705.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>127</duration>
+              <duration>116</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -1617,25 +1776,25 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-23">
-            <name>MVI_0324.MP4</name>
+            <name>MVI_0331.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>189</duration>
+            <duration>79</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>839</start>
-            <end>899</end>
-            <in>6</in>
-            <out>66</out>
-            <file id="file-23">
-              <name>MVI_0324.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0324.MP4</pathurl>
+            <start>958</start>
+            <end>989</end>
+            <in>28</in>
+            <out>59</out>
+            <file id="file-MVI_0331">
+              <name>MVI_0331.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0331.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>151</duration>
+              <duration>63</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -1695,11 +1854,11 @@
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>899</start>
-            <end>958</end>
+            <start>989</start>
+            <end>1019</end>
             <in>107</in>
-            <out>166</out>
-            <file id="file-24">
+            <out>137</out>
+            <file id="file-MVI_0551">
               <name>MVI_0551.MP4</name>
               <pathurl>file://localhost/MIDIA/MVI_0551.MP4</pathurl>
               <rate>
@@ -1758,47 +1917,26 @@
               </effect>
             </filter>
           </clipitem>
-          <transitionitem>
-            <start>954</start>
-            <end>962</end>
-            <alignment>center</alignment>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <effect>
-              <name>Cross Dissolve</name>
-              <effectid>Cross Dissolve</effectid>
-              <effectcategory>Dissolve</effectcategory>
-              <effecttype>transition</effecttype>
-              <mediatype>video</mediatype>
-              <wipecode>0</wipecode>
-              <wipeaccuracy>100</wipeaccuracy>
-              <startratio>0</startratio>
-              <endratio>1</endratio>
-              <reverse>FALSE</reverse>
-            </effect>
-          </transitionitem>
           <clipitem id="clipitem-25">
-            <name>MVI_0547.MP4</name>
+            <name>MVI_0582.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>348</duration>
+            <duration>211</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>958</start>
-            <end>989</end>
-            <in>295</in>
-            <out>326</out>
-            <file id="file-25">
-              <name>MVI_0547.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0547.MP4</pathurl>
+            <start>1019</start>
+            <end>1049</end>
+            <in>47</in>
+            <out>77</out>
+            <file id="file-MVI_0582">
+              <name>MVI_0582.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0582.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>278</duration>
+              <duration>169</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -1851,25 +1989,25 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-26">
-            <name>MVI_0553.MP4</name>
+            <name>MVI_0323.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>103</duration>
+            <duration>327</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>989</start>
-            <end>1019</end>
-            <in>0</in>
-            <out>30</out>
-            <file id="file-26">
-              <name>MVI_0553.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0553.MP4</pathurl>
+            <start>1049</start>
+            <end>1079</end>
+            <in>150</in>
+            <out>180</out>
+            <file id="file-MVI_0323">
+              <name>MVI_0323.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0323.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>82</duration>
+              <duration>261</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -1922,219 +2060,6 @@
             </filter>
           </clipitem>
           <clipitem id="clipitem-27">
-            <name>MVI_0722.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>191</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>1019</start>
-            <end>1049</end>
-            <in>47</in>
-            <out>77</out>
-            <file id="file-27">
-              <name>MVI_0722.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0722.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>153</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
-                </parameter>
-                <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-28">
-            <name>MVI_0557.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>818</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>1049</start>
-            <end>1064</end>
-            <in>435</in>
-            <out>450</out>
-            <file id="file-28">
-              <name>MVI_0557.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0557.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>654</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
-                </parameter>
-                <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>-90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-29">
-            <name>MVI_0558.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>108</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>1064</start>
-            <end>1079</end>
-            <in>44</in>
-            <out>59</out>
-            <file id="file-29">
-              <name>MVI_0558.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0558.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>86</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
-                </parameter>
-                <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-30">
             <name>MVI_0571.MP4</name>
             <enabled>TRUE</enabled>
             <duration>908</duration>
@@ -2146,7 +2071,7 @@
             <end>1109</end>
             <in>720</in>
             <out>750</out>
-            <file id="file-30">
+            <file id="file-MVI_0571">
               <name>MVI_0571.MP4</name>
               <pathurl>file://localhost/MIDIA/MVI_0571.MP4</pathurl>
               <rate>
@@ -2205,7 +2130,7 @@
               </effect>
             </filter>
           </clipitem>
-          <clipitem id="clipitem-31">
+          <clipitem id="clipitem-28">
             <name>MVI_0723.MP4</name>
             <enabled>TRUE</enabled>
             <duration>548</duration>
@@ -2217,7 +2142,7 @@
             <end>1139</end>
             <in>465</in>
             <out>495</out>
-            <file id="file-31">
+            <file id="file-MVI_0723">
               <name>MVI_0723.MP4</name>
               <pathurl>file://localhost/MIDIA/MVI_0723.MP4</pathurl>
               <rate>
@@ -2276,78 +2201,7 @@
               </effect>
             </filter>
           </clipitem>
-          <clipitem id="clipitem-32">
-            <name>MVI_0580.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>479</duration>
-            <rate>
-              <timebase>30</timebase>
-              <ntsc>FALSE</ntsc>
-            </rate>
-            <start>1139</start>
-            <end>1169</end>
-            <in>25</in>
-            <out>55</out>
-            <file id="file-32">
-              <name>MVI_0580.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0580.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>383</duration>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>66.6667</value>
-                </parameter>
-                <parameter>
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>-90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-          </clipitem>
-          <clipitem id="clipitem-33">
+          <clipitem id="clipitem-29">
             <name>MVI_0581.MP4</name>
             <enabled>TRUE</enabled>
             <duration>920</duration>
@@ -2355,11 +2209,11 @@
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>1169</start>
-            <end>1199</end>
+            <start>1139</start>
+            <end>1169</end>
             <in>772</in>
             <out>802</out>
-            <file id="file-33">
+            <file id="file-MVI_0581">
               <name>MVI_0581.MP4</name>
               <pathurl>file://localhost/MIDIA/MVI_0581.MP4</pathurl>
               <rate>
@@ -2418,26 +2272,26 @@
               </effect>
             </filter>
           </clipitem>
-          <clipitem id="clipitem-34">
-            <name>MVI_0579.MP4</name>
+          <clipitem id="clipitem-30">
+            <name>MVI_0555.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>221</duration>
+            <duration>503</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
-            <start>1199</start>
-            <end>1259</end>
-            <in>86</in>
-            <out>146</out>
-            <file id="file-34">
-              <name>MVI_0579.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0579.MP4</pathurl>
+            <start>1169</start>
+            <end>1199</end>
+            <in>90</in>
+            <out>120</out>
+            <file id="file-MVI_0555">
+              <name>MVI_0555.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0555.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>177</duration>
+              <duration>402</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -2489,26 +2343,168 @@
               </effect>
             </filter>
           </clipitem>
-          <clipitem id="clipitem-35">
-            <name>MVI_0713.MP4</name>
+          <clipitem id="clipitem-31">
+            <name>MVI_0580.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>84</duration>
+            <duration>479</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1199</start>
+            <end>1229</end>
+            <in>25</in>
+            <out>55</out>
+            <file id="file-MVI_0580">
+              <name>MVI_0580.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0580.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>383</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-32">
+            <name>MVI_0697.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>41</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1229</start>
+            <end>1259</end>
+            <in>0</in>
+            <out>30</out>
+            <file id="file-MVI_0697">
+              <name>MVI_0697.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0697.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>33</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-33">
+            <name>MVI_0544.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>477</duration>
             <rate>
               <timebase>30</timebase>
               <ntsc>FALSE</ntsc>
             </rate>
             <start>1259</start>
             <end>1319</end>
-            <in>6</in>
-            <out>66</out>
-            <file id="file-35">
-              <name>MVI_0713.MP4</name>
-              <pathurl>file://localhost/MIDIA/MVI_0713.MP4</pathurl>
+            <in>409</in>
+            <out>469</out>
+            <file id="file-MVI_0544">
+              <name>MVI_0544.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0544.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>67</duration>
+              <duration>381</duration>
               <media>
                 <video>
                   <samplecharacteristics>
@@ -2581,6 +2577,1284 @@
               <reverse>FALSE</reverse>
             </effect>
           </transitionitem>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+        </track>
+        <track>
+          <clipitem id="clipitem-34">
+            <name>MVI_0719.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>283</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>74</start>
+            <end>89</end>
+            <in>45</in>
+            <out>60</out>
+            <file id="file-MVI_0719">
+              <name>MVI_0719.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0719.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>226</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-35">
+            <name>MVI_0718.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>524</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>89</start>
+            <end>134</end>
+            <in>472</in>
+            <out>517</out>
+            <file id="file-MVI_0718">
+              <name>MVI_0718.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0718.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>419</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-36">
+            <name>MVI_0578.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>293</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>134</start>
+            <end>179</end>
+            <in>240</in>
+            <out>285</out>
+            <file id="file-MVI_0578">
+              <name>MVI_0578.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0578.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>234</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-37">
+            <name>MVI_0723.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>548</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>179</start>
+            <end>224</end>
+            <in>101</in>
+            <out>146</out>
+            <file id="file-MVI_0723"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-38">
+            <name>MVI_0328.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>88</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>224</start>
+            <end>269</end>
+            <in>32</in>
+            <out>77</out>
+            <file id="file-MVI_0328">
+              <name>MVI_0328.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0328.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>70</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-39">
+            <name>MVI_0325.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>95</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>269</start>
+            <end>299</end>
+            <in>14</in>
+            <out>44</out>
+            <file id="file-MVI_0325">
+              <name>MVI_0325.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0325.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>76</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+        </track>
+        <track>
+          <clipitem id="clipitem-40">
+            <name>MVI_0321.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>130</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>74</start>
+            <end>104</end>
+            <in>84</in>
+            <out>114</out>
+            <file id="file-MVI_0321">
+              <name>MVI_0321.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0321.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>104</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-41">
+            <name>MVI_0722.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>191</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>104</start>
+            <end>149</end>
+            <in>43</in>
+            <out>88</out>
+            <file id="file-MVI_0722">
+              <name>MVI_0722.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0722.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>153</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-42">
+            <name>MVI_0333.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>134</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>149</start>
+            <end>194</end>
+            <in>6</in>
+            <out>51</out>
+            <file id="file-MVI_0333">
+              <name>MVI_0333.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0333.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>107</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-43">
+            <name>MVI_0339.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>110</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>194</start>
+            <end>239</end>
+            <in>6</in>
+            <out>51</out>
+            <file id="file-MVI_0339">
+              <name>MVI_0339.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0339.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>88</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-44">
+            <name>MVI_0320.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>180</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>239</start>
+            <end>284</end>
+            <in>90</in>
+            <out>135</out>
+            <file id="file-MVI_0320">
+              <name>MVI_0320.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0320.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>144</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-45">
+            <name>MVI_0696.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>124</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>284</start>
+            <end>299</end>
+            <in>15</in>
+            <out>30</out>
+            <file id="file-MVI_0696">
+              <name>MVI_0696.MP4</name>
+              <pathurl>file://localhost/MIDIA/MVI_0696.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>99</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <filter>
+              <effect>
+                <name>Crop</name>
+                <effectid>crop</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter>
+                  <parameterid>left</parameterid>
+                  <name>left</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>66.6667</value>
+                </parameter>
+                <parameter>
+                  <parameterid>right</parameterid>
+                  <name>right</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0.0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>top</parameterid>
+                  <name>top</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter>
+                  <parameterid>bottom</parameterid>
+                  <name>bottom</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>100</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
           <enabled>TRUE</enabled>
           <locked>FALSE</locked>
         </track>

@@ -65,31 +65,43 @@ media = sub(seq, "media")
 vid = sub(media, "video"); fmt = sub(vid, "format"); sc = sub(fmt, "samplecharacteristics")
 rate(sc, FPS, False); sub(sc, "width", S["largura"]); sub(sc, "height", S["altura"])
 sub(sc, "anamorphic", "FALSE"); sub(sc, "pixelaspectratio", "square"); sub(sc, "fielddominance", "none")
-vt = sub(vid, "track")
+D = P["dissolve_f"]; h = D // 2; todos = P["planos"]
 
-D = P["dissolve_f"]; h = D // 2; planos = P["planos"]
-for k, p in enumerate(planos):
-    if p["transicao_entrada"] == "dissolve" and k > 0:
-        dissolve(vt, p["timeline_in_f"] - h, p["timeline_in_f"] + h, "center")
+
+def crop_pct(p):
+    """faixa (fração da altura do quadro já endireitado) -> Crop em % do ORIGINAL deitado.
+    Giro horário: o topo do quadro final é a esquerda do original; anti-horário: a direita."""
+    y0, y1 = p["recorte_y"]
+    if p["rotacao"] == "cw":
+        return {"left": 100 * y0, "right": 100 * (1 - y1), "top": 0, "bottom": 0}
+    return {"left": 100 * (1 - y1), "right": 100 * y0, "top": 0, "bottom": 0}
+
+
+def clipitem(track, k, p):
     info = probe(os.path.join(orig_dir, p["arquivo"]))
     vs = [s for s in info["streams"] if s["codec_type"] == "video"][0]
     fdur_s = float(info["format"]["duration"])
-    ci = sub(vt, "clipitem", id=f"clipitem-{k + 1}")
+    ci = sub(track, "clipitem", id=f"clipitem-{k}")
     sub(ci, "name", p["arquivo"]); sub(ci, "enabled", "TRUE")
     sub(ci, "duration", round(fdur_s * FPS)); rate(ci, FPS, False)
     sub(ci, "start", p["timeline_in_f"]); sub(ci, "end", p["timeline_out_f"])
     # in/out na base de tempo da sequência (30 fps), como o Premiere faz em mídias de fps diferente
     sub(ci, "in", round(p["in_s"] * FPS)); sub(ci, "out", round(p["in_s"] * FPS) + p["timeline_out_f"] - p["timeline_in_f"])
-    f = sub(ci, "file", id=f"file-{k + 1}")
-    sub(f, "name", p["arquivo"]); sub(f, "pathurl", url(p["arquivo"]))
-    num, den = map(int, vs["r_frame_rate"].split("/"))
-    ntsc = den == 1001; tb = round(num / den)
-    rate(f, tb, ntsc); sub(f, "duration", round(fdur_s * num / den))
-    fm = sub(f, "media"); fv = sub(fm, "video"); fsc = sub(fv, "samplecharacteristics")
-    rate(fsc, tb, ntsc); sub(fsc, "width", vs["width"]); sub(fsc, "height", vs["height"])
-    sub(fsc, "anamorphic", "FALSE"); sub(fsc, "pixelaspectratio", "square"); sub(fsc, "fielddominance", "none")
-    fa = sub(fm, "audio"); sub(fa, "channelcount", 2)
-    # Basic Motion: rotação + escala
+    fid = "file-" + p["clipe"]
+    if fid in arquivos_def:
+        sub(ci, "file", id=fid)
+    else:
+        arquivos_def.add(fid)
+        f = sub(ci, "file", id=fid)
+        sub(f, "name", p["arquivo"]); sub(f, "pathurl", url(p["arquivo"]))
+        num, den = map(int, vs["r_frame_rate"].split("/"))
+        ntsc = den == 1001; tb = round(num / den)
+        rate(f, tb, ntsc); sub(f, "duration", round(fdur_s * num / den))
+        fm = sub(f, "media"); fv = sub(fm, "video"); fsc = sub(fv, "samplecharacteristics")
+        rate(fsc, tb, ntsc); sub(fsc, "width", vs["width"]); sub(fsc, "height", vs["height"])
+        sub(fsc, "anamorphic", "FALSE"); sub(fsc, "pixelaspectratio", "square"); sub(fsc, "fielddominance", "none")
+        fa = sub(fm, "audio"); sub(fa, "channelcount", 2)
+    # Basic Motion: rotação + escala (sem mudar posição)
     flt = sub(ci, "filter"); ef = sub(flt, "effect")
     sub(ef, "name", "Basic Motion"); sub(ef, "effectid", "basic"); sub(ef, "effectcategory", "motion")
     sub(ef, "effecttype", "motion"); sub(ef, "mediatype", "video")
@@ -99,9 +111,28 @@ for k, p in enumerate(planos):
     sub(pr, "valuemin", -8640); sub(pr, "valuemax", 8640); sub(pr, "value", 90 if p["rotacao"] == "cw" else -90)
     pr = sub(ef, "parameter"); sub(pr, "parameterid", "center"); sub(pr, "name", "Center")
     v = sub(pr, "value"); sub(v, "horiz", 0); sub(v, "vert", 0)
-    if p.get("fade_out"):
-        dissolve(vt, p["timeline_out_f"] - P["fade_video_f"], p["timeline_out_f"], "end-black")
-sub(vt, "enabled", "TRUE"); sub(vt, "locked", "FALSE")
+    if p.get("faixa"):  # painel do mosaico: só recorte, o terço já está no lugar certo
+        flt = sub(ci, "filter"); ef = sub(flt, "effect")
+        sub(ef, "name", "Crop"); sub(ef, "effectid", "crop"); sub(ef, "effectcategory", "motion")
+        sub(ef, "effecttype", "motion"); sub(ef, "mediatype", "video")
+        for nm, val in crop_pct(p).items():
+            pr = sub(ef, "parameter"); sub(pr, "parameterid", nm); sub(pr, "name", nm)
+            sub(pr, "valuemin", 0); sub(pr, "valuemax", 100); sub(pr, "value", round(val, 4))
+
+
+arquivos_def = set(); k = 0
+for cam in ["V1", "V2", "V3"]:
+    itens = [p for p in todos if p.get("camada", "V1") == cam]
+    if not itens: continue
+    vt = sub(vid, "track")
+    for p in itens:
+        k += 1
+        if cam == "V1" and p["transicao_entrada"] == "dissolve":
+            dissolve(vt, p["timeline_in_f"] - h, p["timeline_in_f"] + h, "center")
+        clipitem(vt, k, p)
+        if p.get("fade_out"):
+            dissolve(vt, p["timeline_out_f"] - P["fade_video_f"], p["timeline_out_f"], "end-black")
+    sub(vt, "enabled", "TRUE"); sub(vt, "locked", "FALSE")
 
 # áudio: música
 aud = sub(media, "audio"); af = sub(aud, "format"); asc = sub(af, "samplecharacteristics")
@@ -125,4 +156,4 @@ sub(at, "enabled", "TRUE"); sub(at, "locked", "FALSE")
 xml = minidom.parseString(ET.tostring(x, encoding="utf-8")).toprettyxml(indent="  ", encoding="UTF-8").decode()
 xml = xml.replace('<?xml version="1.0" encoding="UTF-8"?>', '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE xmeml>', 1)
 open(saida, "w", encoding="utf-8").write(xml)
-print("ok", saida, f"{len(planos)} planos, {DUR} quadros")
+print("ok", saida, f"{len(todos)} clipes, {DUR} quadros")

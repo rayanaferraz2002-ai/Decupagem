@@ -10,17 +10,27 @@ plano_p, prox, musica, saida = sys.argv[1:5]
 P = json.load(open(plano_p)); S = P["sequencia"]; FPS = S["fps"]; W, H = S["largura"], S["altura"]
 D = P["dissolve_f"]; h = D // 2
 tmp = tempfile.mkdtemp(prefix="prev_")
-planos = P["planos"]
+todos = P["planos"]
+planos = [p for p in todos if p.get("camada", "V1") == "V1"]
+sobre = [p for p in todos if p.get("camada", "V1") != "V1"]  # faixas do mosaico (V2/V3)
 
 
-def seg(p, extra_pre=0, extra_post=0, idx=0):
+def faixa_px(p):
+    y0, y1 = p["recorte_y"]; a, b = round(y0 * H), round(y1 * H); return a, b - a
+
+
+def seg(p, extra_pre=0, extra_post=0, idx=0, tag="", so_faixa=False):
     """renderiza um plano (com sobras para fusão) em arquivo intermediário com nº exato de quadros"""
     nf = p["timeline_out_f"] - p["timeline_in_f"] + extra_pre + extra_post
     ss = p["in_s"] - extra_pre / FPS
     tr = "transpose=1" if p["rotacao"] == "cw" else "transpose=2"
-    o = os.path.join(tmp, f"s{idx:02d}.mp4")
+    o = os.path.join(tmp, f"s{idx:02d}{tag}.mp4")
+    vf = f"{tr},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1"
+    if p.get("faixa"):
+        y, hh = faixa_px(p)
+        vf += f",crop={W}:{hh}:0:{y}" + ("" if so_faixa else f",pad={W}:{H}:0:{y}:black")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss:.4f}", "-i", os.path.join(prox, p["clipe"] + ".mp4"),
-                    "-an", "-vf", f"{tr},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1",
+                    "-an", "-vf", vf,
                     "-frames:v", str(nf), "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", o],
                    check=True)
     return o, nf
@@ -54,10 +64,21 @@ for k in range(1, len(arquivos)):
     off = (acc - D) / FPS
     fc.append(f"{last}[{k}:v]xfade=transition=fade:duration={D / FPS:.4f}:offset={off:.4f}[x{k}]")
     last = f"[x{k}]"; acc = acc + arquivos[k][1] - D
+# faixas do mosaico por cima (V2 topo, V3 base), nos tempos exatos
+nin = len(arquivos); extra_in = []
+for j, p in enumerate(sobre):
+    o, _ = seg(p, idx=j, tag="f", so_faixa=True); extra_in += ["-i", o]
+    t0, t1 = p["timeline_in_f"] / FPS, p["timeline_out_f"] / FPS; y, _ = faixa_px(p)
+    f0, f1 = p["timeline_in_f"], p["timeline_out_f"]
+    # meio quadro de margem para não perder o 1º quadro por arredondamento
+    fc.append(f"[{nin + j}:v]setpts=PTS-STARTPTS+{f0}/({FPS}*TB)[o{j}]")
+    fc.append(f"{last}[o{j}]overlay=0:{y}:enable='between(t,{(f0 - 0.5) / FPS:.5f},{(f1 - 0.5) / FPS:.5f})':eof_action=repeat[y{j}]")
+    last = f"[y{j}]"
+inputs += extra_in
 total_s = S["duracao_f"] / FPS
 fv = P["fade_video_f"] / FPS
 fc.append(f"{last}trim=end_frame={S['duracao_f']},fade=t=out:st={total_s - fv:.4f}:d={fv:.4f}[v]")
-M = P["musica"]; na = len(arquivos)
+M = P["musica"]; na = len(arquivos) + len(sobre)
 fc.append(f"[{na}:a]atrim=start={M['in_s']}:duration={total_s:.4f},asetpts=PTS-STARTPTS,"
           f"afade=t=out:st={total_s - M['fade_out_s']:.4f}:d={M['fade_out_s']}[a]")
 subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-i", musica, "-filter_complex", ";".join(fc),

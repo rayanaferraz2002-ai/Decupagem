@@ -22,4 +22,4 @@ python3 -I "$R/scripts/montar_plano.py" --escolhas "$R/dados/escolhas.json" --or
 python3 -I "$R/scripts/gerar_preview.py" "$R/plano.json" "$WORK/proxies" "$MUS" "$R/preview.mp4"
 python3 -I "$R/scripts/gerar_xml.py" "$R/plano.json" "$MAT/evento" "$MUS" "$R/sequencia.xml" ${BASE:+--base "$BASE"}
 python3 -I "$R/scripts/validar_xml.py" "$R/sequencia.xml" "$R/plano.json" "$MAT/evento"
-python3 -I "$R/scripts/gerar_docs.py" "$R/plano.json" "$R"
+python3 -I "$R/scripts/gerar_docs.py" "$R/plano.json" "$R" "$WORK/analise/metricas.json"

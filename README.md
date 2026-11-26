@@ -1,7 +1,7 @@
 # Decupagem — Recap evento 19/11 (1 ano T.T. Macaé)
 
 Entregas:
-- `preview.mp4`: prévia leve (720×1280, 30 fps, 43,97 s)
+- `preview.mp4`: prévia leve (720×1280, 30 fps, 43,97 s): placa → mosaico (preview) → comendo → chopp → comida → cerveja → risadas
 - `sequencia.xml`: XML do Final Cut Pro 7 (xmeml) para importar no Premiere (File → Import), apontando para os originais `MVI_xxxx.MP4`
 - `checklist_premiere.md`: o que conferir e aplicar no Premiere (rotação, fusões, fade, cor), com timecodes
 - `relatorio.md`: roteiro, análise da referência e da música, cena → clipe, descartados e premissas
@@ -24,7 +24,7 @@ Entregas:
 | `gerar_docs.py` | checklist + tabela de planos |
 
 ## Trocar um plano
-Edite o plano em `dados/escolhas.json` (campos `clipe` e `janela` em segundos do original) e rode:
+Edite o plano em `dados/escolhas.json` (campos `clipe` e `janela` em segundos do original; no mosaico, cada item de `trocas` tem `batida`, `faixa`, `clipe` e `janela`) e rode:
 ```
 SKIP_DOWNLOAD=1 FIXAR=1 scripts/pipeline.sh
 ```
