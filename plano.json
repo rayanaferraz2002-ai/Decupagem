@@ -1,0 +1,1071 @@
+{
+ "sequencia": {
+  "largura": 720,
+  "altura": 1280,
+  "fps": 30,
+  "duracao_f": 1319,
+  "duracao_s": 43.967,
+  "fonte": "configuração do vídeo de referência"
+ },
+ "musica": {
+  "arquivo": "Bring It (Instrumental).mp4",
+  "in_s": 15.116,
+  "out_s": 59.083,
+  "fade_out_s": 2.0,
+  "bpm": 120.12
+ },
+ "dissolve_f": 8,
+ "fade_video_f": 24,
+ "planos": [
+  {
+   "n": 1,
+   "bloco": 1,
+   "nome_bloco": "Abertura - casa cheia",
+   "clipe": "MVI_0718",
+   "arquivo": "MVI_0718.MP4",
+   "janela": [
+    13.5,
+    17.4
+   ],
+   "batidas": 4,
+   "timeline_in_f": 0,
+   "timeline_out_f": 59,
+   "timeline_in_tc": "00:00:00:00",
+   "in_s": 15.25,
+   "out_s": 17.217,
+   "in_src_f": 366,
+   "out_src_f": 413,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "fachada com letreiro T.T.BURGER e varanda lotada; abre no build antes do drop",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 17.475792
+   }
+  },
+  {
+   "n": 2,
+   "bloco": 1,
+   "nome_bloco": "Abertura - casa cheia",
+   "clipe": "MVI_0549",
+   "arquivo": "MVI_0549.MP4",
+   "janela": [
+    3.0,
+    5.7
+   ],
+   "batidas": 2,
+   "timeline_in_f": 59,
+   "timeline_out_f": 89,
+   "timeline_in_tc": "00:00:01:29",
+   "in_s": 3.0,
+   "out_s": 4.0,
+   "in_src_f": 72,
+   "out_src_f": 96,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "letreiro T.T BURGER + salão externo lotado, plano mais nítido do lote (cai no drop)",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 5.714042
+   }
+  },
+  {
+   "n": 3,
+   "bloco": 1,
+   "nome_bloco": "Abertura - casa cheia",
+   "clipe": "MVI_0668",
+   "arquivo": "MVI_0668.MP4",
+   "janela": [
+    0.0,
+    3.5
+   ],
+   "batidas": 2,
+   "timeline_in_f": 89,
+   "timeline_out_f": 119,
+   "timeline_in_tc": "00:00:02:29",
+   "in_s": 0.2,
+   "out_s": 1.2,
+   "in_src_f": 5,
+   "out_src_f": 29,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "multidão em pé na área externa",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 6.798458
+   }
+  },
+  {
+   "n": 4,
+   "bloco": 1,
+   "nome_bloco": "Abertura - casa cheia",
+   "clipe": "MVI_0719",
+   "arquivo": "MVI_0719.MP4",
+   "janela": [
+    1.5,
+    5.5
+   ],
+   "batidas": 2,
+   "timeline_in_f": 119,
+   "timeline_out_f": 149,
+   "timeline_in_tc": "00:00:03:29",
+   "in_s": 1.5,
+   "out_s": 2.5,
+   "in_src_f": 36,
+   "out_src_f": 60,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "fachada frontal com mesas cheias, estável",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 9.426083
+   }
+  },
+  {
+   "n": 5,
+   "bloco": 1,
+   "nome_bloco": "Abertura - casa cheia",
+   "clipe": "MVI_0578",
+   "arquivo": "MVI_0578.MP4",
+   "janela": [
+    0.0,
+    3.5
+   ],
+   "batidas": 2,
+   "timeline_in_f": 149,
+   "timeline_out_f": 179,
+   "timeline_in_tc": "00:00:04:29",
+   "in_s": 0.2,
+   "out_s": 1.2,
+   "in_src_f": 5,
+   "out_src_f": 29,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "público sentado entre balões",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 9.75975
+   }
+  },
+  {
+   "n": 6,
+   "bloco": 1,
+   "nome_bloco": "Abertura - casa cheia",
+   "clipe": "MVI_0696",
+   "arquivo": "MVI_0696.MP4",
+   "janela": [
+    0.0,
+    4.1
+   ],
+   "batidas": 2,
+   "timeline_in_f": 179,
+   "timeline_out_f": 209,
+   "timeline_in_tc": "00:00:05:29",
+   "in_s": 0.2,
+   "out_s": 1.2,
+   "in_src_f": 5,
+   "out_src_f": 29,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "salão interno cheio, gente conversando",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 4.129125
+   }
+  },
+  {
+   "n": 7,
+   "bloco": 1,
+   "nome_bloco": "Abertura - casa cheia",
+   "clipe": "MVI_0320",
+   "arquivo": "MVI_0320.MP4",
+   "janela": [
+    3.0,
+    6.0
+   ],
+   "batidas": 2,
+   "timeline_in_f": 209,
+   "timeline_out_f": 239,
+   "timeline_in_tc": "00:00:06:29",
+   "in_s": 3.0,
+   "out_s": 4.0,
+   "in_src_f": 72,
+   "out_src_f": 96,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "mesas externas ocupadas, nítido",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 6.006
+   }
+  },
+  {
+   "n": 8,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0323",
+   "arquivo": "MVI_0323.MP4",
+   "janela": [
+    5.0,
+    6.9
+   ],
+   "batidas": 2,
+   "timeline_in_f": 239,
+   "timeline_out_f": 269,
+   "timeline_in_tc": "00:00:07:29",
+   "in_s": 5.0,
+   "out_s": 6.0,
+   "in_src_f": 120,
+   "out_src_f": 144,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "cliente sorrindo para a câmera",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 10.885875
+   }
+  },
+  {
+   "n": 9,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0697",
+   "arquivo": "MVI_0697.MP4",
+   "janela": [
+    0.0,
+    1.37
+   ],
+   "batidas": 2,
+   "timeline_in_f": 269,
+   "timeline_out_f": 299,
+   "timeline_in_tc": "00:00:08:29",
+   "in_s": 0.0,
+   "out_s": 1.0,
+   "in_src_f": 0,
+   "out_src_f": 24,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "amigas na festa, rosto em foco",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 1.376375
+   }
+  },
+  {
+   "n": 10,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0333",
+   "arquivo": "MVI_0333.MP4",
+   "janela": [
+    0.0,
+    4.4
+   ],
+   "batidas": 2,
+   "timeline_in_f": 299,
+   "timeline_out_f": 329,
+   "timeline_in_tc": "00:00:09:29",
+   "in_s": 0.2,
+   "out_s": 1.2,
+   "in_src_f": 5,
+   "out_src_f": 29,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "amigas conversando com o salão cheio ao fundo",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 4.462792
+   }
+  },
+  {
+   "n": 11,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0552",
+   "arquivo": "MVI_0552.MP4",
+   "janela": [
+    0.0,
+    6.7
+   ],
+   "batidas": 2,
+   "timeline_in_f": 329,
+   "timeline_out_f": 359,
+   "timeline_in_tc": "00:00:10:29",
+   "in_s": 4.95,
+   "out_s": 5.95,
+   "in_src_f": 119,
+   "out_src_f": 143,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "equipe 'Sorrisos são virais' com a roleta",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 6.798458
+   }
+  },
+  {
+   "n": 12,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0331",
+   "arquivo": "MVI_0331.MP4",
+   "janela": [
+    0.0,
+    2.6
+   ],
+   "batidas": 2,
+   "timeline_in_f": 359,
+   "timeline_out_f": 389,
+   "timeline_in_tc": "00:00:11:29",
+   "in_s": 0.95,
+   "out_s": 1.95,
+   "in_src_f": 23,
+   "out_src_f": 47,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "atendimento na mesa",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 2.627625
+   }
+  },
+  {
+   "n": 13,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0554",
+   "arquivo": "MVI_0554.MP4",
+   "janela": [
+    1.5,
+    3.4
+   ],
+   "batidas": 2,
+   "timeline_in_f": 389,
+   "timeline_out_f": 419,
+   "timeline_in_tc": "00:00:12:29",
+   "in_s": 1.5,
+   "out_s": 2.5,
+   "in_src_f": 36,
+   "out_src_f": 60,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "família/criança na mesa",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 3.420083
+   }
+  },
+  {
+   "n": 14,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0326",
+   "arquivo": "MVI_0326.MP4",
+   "janela": [
+    2.0,
+    5.5
+   ],
+   "batidas": 2,
+   "timeline_in_f": 419,
+   "timeline_out_f": 449,
+   "timeline_in_tc": "00:00:13:29",
+   "in_s": 4.125,
+   "out_s": 5.125,
+   "in_src_f": 99,
+   "out_src_f": 123,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "mesa com mural da marca ao fundo",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 5.588917
+   }
+  },
+  {
+   "n": 15,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0339",
+   "arquivo": "MVI_0339.MP4",
+   "janela": [
+    0.0,
+    2.5
+   ],
+   "batidas": 2,
+   "timeline_in_f": 449,
+   "timeline_out_f": 479,
+   "timeline_in_tc": "00:00:14:29",
+   "in_s": 0.2,
+   "out_s": 1.2,
+   "in_src_f": 5,
+   "out_src_f": 29,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "grupo conversando na área externa",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 3.670333
+   }
+  },
+  {
+   "n": 16,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0582",
+   "arquivo": "MVI_0582.MP4",
+   "janela": [
+    0.0,
+    3.5
+   ],
+   "batidas": 2,
+   "timeline_in_f": 479,
+   "timeline_out_f": 509,
+   "timeline_in_tc": "00:00:15:29",
+   "in_s": 1.575,
+   "out_s": 2.575,
+   "in_src_f": 38,
+   "out_src_f": 62,
+   "rotacao": "ccw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "cliente sorrindo",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 7.048708
+   }
+  },
+  {
+   "n": 17,
+   "bloco": 2,
+   "nome_bloco": "Gente e clima",
+   "clipe": "MVI_0544",
+   "arquivo": "MVI_0544.MP4",
+   "janela": [
+    9.0,
+    15.8
+   ],
+   "batidas": 2,
+   "timeline_in_f": 509,
+   "timeline_out_f": 539,
+   "timeline_in_tc": "00:00:16:29",
+   "in_s": 14.125,
+   "out_s": 15.125,
+   "in_src_f": 339,
+   "out_src_f": 363,
+   "rotacao": "ccw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "amigas dançando - energia antes de baixar o ritmo",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 15.890875
+   }
+  },
+  {
+   "n": 18,
+   "bloco": 3,
+   "nome_bloco": "Burger",
+   "clipe": "MVI_0597",
+   "arquivo": "MVI_0597.MP4",
+   "janela": [
+    2.4,
+    4.7
+   ],
+   "batidas": 4,
+   "timeline_in_f": 539,
+   "timeline_out_f": 600,
+   "timeline_in_tc": "00:00:17:29",
+   "in_s": 2.4,
+   "out_s": 4.433,
+   "in_src_f": 58,
+   "out_src_f": 106,
+   "rotacao": "ccw",
+   "transicao_entrada": "dissolve",
+   "fade_out": false,
+   "motivo": "cozinha montando o burger",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 4.713042
+   }
+  },
+  {
+   "n": 19,
+   "bloco": 3,
+   "nome_bloco": "Burger",
+   "clipe": "MVI_0710",
+   "arquivo": "MVI_0710.MP4",
+   "janela": [
+    0.0,
+    2.4
+   ],
+   "batidas": 4,
+   "timeline_in_f": 600,
+   "timeline_out_f": 659,
+   "timeline_in_tc": "00:00:20:00",
+   "in_s": 0.2,
+   "out_s": 2.167,
+   "in_src_f": 5,
+   "out_src_f": 52,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "close da bandeja com burger e fritas",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 2.460792
+   }
+  },
+  {
+   "n": 20,
+   "bloco": 3,
+   "nome_bloco": "Burger",
+   "clipe": "MVI_0711",
+   "arquivo": "MVI_0711.MP4",
+   "janela": [
+    4.5,
+    12.4
+   ],
+   "batidas": 4,
+   "timeline_in_f": 659,
+   "timeline_out_f": 719,
+   "timeline_in_tc": "00:00:21:29",
+   "in_s": 7.25,
+   "out_s": 9.25,
+   "in_src_f": 174,
+   "out_src_f": 222,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "cliente mordendo o burger",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 12.429083
+   }
+  },
+  {
+   "n": 21,
+   "bloco": 3,
+   "nome_bloco": "Burger",
+   "clipe": "MVI_0610",
+   "arquivo": "MVI_0610.MP4",
+   "janela": [
+    0.0,
+    3.5
+   ],
+   "batidas": 4,
+   "timeline_in_f": 719,
+   "timeline_out_f": 779,
+   "timeline_in_tc": "00:00:23:29",
+   "in_s": 0.2,
+   "out_s": 2.2,
+   "in_src_f": 5,
+   "out_src_f": 53,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "cliente sorrindo com o burger na mão",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 6.464792
+   }
+  },
+  {
+   "n": 22,
+   "bloco": 3,
+   "nome_bloco": "Burger",
+   "clipe": "MVI_0656",
+   "arquivo": "MVI_0656.MP4",
+   "janela": [
+    0.0,
+    5.2
+   ],
+   "batidas": 4,
+   "timeline_in_f": 779,
+   "timeline_out_f": 839,
+   "timeline_in_tc": "00:00:25:29",
+   "in_s": 0.2,
+   "out_s": 2.2,
+   "in_src_f": 5,
+   "out_src_f": 53,
+   "rotacao": "ccw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "cliente comendo, mesa com bandejas e latas",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 5.296958
+   }
+  },
+  {
+   "n": 23,
+   "bloco": 3,
+   "nome_bloco": "Burger",
+   "clipe": "MVI_0324",
+   "arquivo": "MVI_0324.MP4",
+   "janela": [
+    0.0,
+    3.2
+   ],
+   "batidas": 4,
+   "timeline_in_f": 839,
+   "timeline_out_f": 899,
+   "timeline_in_tc": "00:00:27:29",
+   "in_s": 0.2,
+   "out_s": 2.2,
+   "in_src_f": 5,
+   "out_src_f": 53,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "cliente comendo burger na área externa",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 6.297958
+   }
+  },
+  {
+   "n": 24,
+   "bloco": 3,
+   "nome_bloco": "Burger",
+   "clipe": "MVI_0551",
+   "arquivo": "MVI_0551.MP4",
+   "janela": [
+    0.0,
+    8.7
+   ],
+   "batidas": 4,
+   "timeline_in_f": 899,
+   "timeline_out_f": 958,
+   "timeline_in_tc": "00:00:29:29",
+   "in_s": 3.575,
+   "out_s": 5.542,
+   "in_src_f": 86,
+   "out_src_f": 133,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "salão interno cheio, mesas comendo (fecha o bloco ligando burger e casa cheia)",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 8.75875
+   }
+  },
+  {
+   "n": 25,
+   "bloco": 4,
+   "nome_bloco": "Comemoração",
+   "clipe": "MVI_0547",
+   "arquivo": "MVI_0547.MP4",
+   "janela": [
+    0.0,
+    11.5
+   ],
+   "batidas": 2,
+   "timeline_in_f": 958,
+   "timeline_out_f": 989,
+   "timeline_in_tc": "00:00:31:28",
+   "in_s": 9.825,
+   "out_s": 10.858,
+   "in_src_f": 236,
+   "out_src_f": 260,
+   "rotacao": "ccw",
+   "transicao_entrada": "dissolve",
+   "fade_out": false,
+   "motivo": "roleta de prêmios girando",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 11.594917
+   }
+  },
+  {
+   "n": 26,
+   "bloco": 4,
+   "nome_bloco": "Comemoração",
+   "clipe": "MVI_0553",
+   "arquivo": "MVI_0553.MP4",
+   "janela": [
+    0.0,
+    1.2
+   ],
+   "batidas": 2,
+   "timeline_in_f": 989,
+   "timeline_out_f": 1019,
+   "timeline_in_tc": "00:00:32:29",
+   "in_s": 0.0,
+   "out_s": 1.0,
+   "in_src_f": 0,
+   "out_src_f": 24,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "brinde com sacola '1 ano de T.T.'",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 3.420083
+   }
+  },
+  {
+   "n": 27,
+   "bloco": 4,
+   "nome_bloco": "Comemoração",
+   "clipe": "MVI_0722",
+   "arquivo": "MVI_0722.MP4",
+   "janela": [
+    0.0,
+    3.0
+   ],
+   "batidas": 2,
+   "timeline_in_f": 1019,
+   "timeline_out_f": 1049,
+   "timeline_in_tc": "00:00:33:29",
+   "in_s": 1.575,
+   "out_s": 2.575,
+   "in_src_f": 38,
+   "out_src_f": 62,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "máquina de garra com ketchups",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 6.381375
+   }
+  },
+  {
+   "n": 28,
+   "bloco": 4,
+   "nome_bloco": "Comemoração",
+   "clipe": "MVI_0557",
+   "arquivo": "MVI_0557.MP4",
+   "janela": [
+    13.0,
+    18.0
+   ],
+   "batidas": 1,
+   "timeline_in_f": 1049,
+   "timeline_out_f": 1064,
+   "timeline_in_tc": "00:00:34:29",
+   "in_s": 14.5,
+   "out_s": 15.0,
+   "in_src_f": 348,
+   "out_src_f": 360,
+   "rotacao": "ccw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "roleta girando (close, corte rápido antes do drop)",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 27.27725
+   }
+  },
+  {
+   "n": 29,
+   "bloco": 4,
+   "nome_bloco": "Comemoração",
+   "clipe": "MVI_0558",
+   "arquivo": "MVI_0558.MP4",
+   "janela": [
+    0.0,
+    3.5
+   ],
+   "batidas": 1,
+   "timeline_in_f": 1064,
+   "timeline_out_f": 1079,
+   "timeline_in_tc": "00:00:35:14",
+   "in_s": 1.45,
+   "out_s": 1.95,
+   "in_src_f": 35,
+   "out_src_f": 47,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "placa de premiações",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 3.586917
+   }
+  },
+  {
+   "n": 30,
+   "bloco": 4,
+   "nome_bloco": "Comemoração",
+   "clipe": "MVI_0571",
+   "arquivo": "MVI_0571.MP4",
+   "janela": [
+    20.5,
+    27.0
+   ],
+   "batidas": 2,
+   "timeline_in_f": 1079,
+   "timeline_out_f": 1109,
+   "timeline_in_tc": "00:00:35:29",
+   "in_s": 24.0,
+   "out_s": 25.0,
+   "in_src_f": 575,
+   "out_src_f": 599,
+   "rotacao": "ccw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "cliente rindo/comemorando (no drop final)",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 30.28025
+   }
+  },
+  {
+   "n": 31,
+   "bloco": 4,
+   "nome_bloco": "Comemoração",
+   "clipe": "MVI_0723",
+   "arquivo": "MVI_0723.MP4",
+   "janela": [
+    15.0,
+    18.2
+   ],
+   "batidas": 2,
+   "timeline_in_f": 1109,
+   "timeline_out_f": 1139,
+   "timeline_in_tc": "00:00:36:29",
+   "in_s": 15.5,
+   "out_s": 16.5,
+   "in_src_f": 372,
+   "out_src_f": 396,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "cliente rindo na máquina de garra",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 18.26825
+   }
+  },
+  {
+   "n": 32,
+   "bloco": 4,
+   "nome_bloco": "Comemoração",
+   "clipe": "MVI_0580",
+   "arquivo": "MVI_0580.MP4",
+   "janela": [
+    0.0,
+    4.5
+   ],
+   "batidas": 2,
+   "timeline_in_f": 1139,
+   "timeline_out_f": 1169,
+   "timeline_in_tc": "00:00:37:29",
+   "in_s": 0.825,
+   "out_s": 1.825,
+   "in_src_f": 20,
+   "out_src_f": 44,
+   "rotacao": "ccw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "amigas juntas sorrindo",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 15.974292
+   }
+  },
+  {
+   "n": 33,
+   "bloco": 4,
+   "nome_bloco": "Comemoração",
+   "clipe": "MVI_0581",
+   "arquivo": "MVI_0581.MP4",
+   "janela": [
+    24.0,
+    30.4
+   ],
+   "batidas": 2,
+   "timeline_in_f": 1169,
+   "timeline_out_f": 1199,
+   "timeline_in_tc": "00:00:38:29",
+   "in_s": 25.75,
+   "out_s": 26.75,
+   "in_src_f": 617,
+   "out_src_f": 641,
+   "rotacao": "ccw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "cliente sorrindo/rindo, rosto nítido (substitui MVI_0720, desfocado)",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 30.655625
+   }
+  },
+  {
+   "n": 34,
+   "bloco": 5,
+   "nome_bloco": "Fechamento",
+   "clipe": "MVI_0579",
+   "arquivo": "MVI_0579.MP4",
+   "janela": [
+    2.5,
+    5.2
+   ],
+   "batidas": 4,
+   "timeline_in_f": 1199,
+   "timeline_out_f": 1259,
+   "timeline_in_tc": "00:00:39:29",
+   "in_s": 2.875,
+   "out_s": 4.875,
+   "in_src_f": 69,
+   "out_src_f": 117,
+   "rotacao": "cw",
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "motivo": "rua/fila com letreiro T.T.BURGER",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 7.382375
+   }
+  },
+  {
+   "n": 35,
+   "bloco": 5,
+   "nome_bloco": "Fechamento",
+   "clipe": "MVI_0713",
+   "arquivo": "MVI_0713.MP4",
+   "janela": [
+    0.0,
+    2.79
+   ],
+   "batidas": 4,
+   "timeline_in_f": 1259,
+   "timeline_out_f": 1319,
+   "timeline_in_tc": "00:00:41:29",
+   "in_s": 0.2,
+   "out_s": 2.2,
+   "in_src_f": 5,
+   "out_src_f": 53,
+   "rotacao": "ccw",
+   "transicao_entrada": "corte",
+   "fade_out": true,
+   "motivo": "letreiro T.T.BURGER sobre a multidão - assinatura final com fade",
+   "nota_escolha": "fixado do plano anterior",
+   "src": {
+    "largura": 1920,
+    "altura": 1080,
+    "fps": "24000/1001",
+    "duracao": 2.794458
+   }
+  }
+ ]
+}

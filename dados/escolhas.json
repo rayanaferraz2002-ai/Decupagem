@@ -1,0 +1,359 @@
+{
+ "_doc": "Decupagem manual: cada plano = clipe + janela de busca [a,b] em segundos do original + nº de batidas. O script escolhe o melhor início dentro da janela (nitidez, pouco tremor, exposição).",
+ "musica": {
+  "arquivo": "Bring It (Instrumental).mp4",
+  "inicio": 15.116,
+  "batidas": 88,
+  "fade_out_s": 2.0
+ },
+ "blocos": [
+  {
+   "bloco": 1,
+   "nome": "Abertura - casa cheia",
+   "planos": [
+    {
+     "clipe": "MVI_0718",
+     "janela": [
+      13.5,
+      17.4
+     ],
+     "batidas": 4,
+     "motivo": "fachada com letreiro T.T.BURGER e varanda lotada; abre no build antes do drop"
+    },
+    {
+     "clipe": "MVI_0549",
+     "janela": [
+      3.0,
+      5.7
+     ],
+     "batidas": 2,
+     "motivo": "letreiro T.T BURGER + salão externo lotado, plano mais nítido do lote (cai no drop)"
+    },
+    {
+     "clipe": "MVI_0668",
+     "janela": [
+      0.0,
+      3.5
+     ],
+     "batidas": 2,
+     "motivo": "multidão em pé na área externa"
+    },
+    {
+     "clipe": "MVI_0719",
+     "janela": [
+      1.5,
+      5.5
+     ],
+     "batidas": 2,
+     "motivo": "fachada frontal com mesas cheias, estável"
+    },
+    {
+     "clipe": "MVI_0578",
+     "janela": [
+      0.0,
+      3.5
+     ],
+     "batidas": 2,
+     "motivo": "público sentado entre balões"
+    },
+    {
+     "clipe": "MVI_0696",
+     "janela": [
+      0.0,
+      4.1
+     ],
+     "batidas": 2,
+     "motivo": "salão interno cheio, gente conversando"
+    },
+    {
+     "clipe": "MVI_0320",
+     "janela": [
+      3.0,
+      6.0
+     ],
+     "batidas": 2,
+     "motivo": "mesas externas ocupadas, nítido"
+    }
+   ]
+  },
+  {
+   "bloco": 2,
+   "nome": "Gente e clima",
+   "planos": [
+    {
+     "clipe": "MVI_0323",
+     "janela": [
+      5.0,
+      6.9
+     ],
+     "batidas": 2,
+     "motivo": "cliente sorrindo para a câmera"
+    },
+    {
+     "clipe": "MVI_0697",
+     "janela": [
+      0.0,
+      1.37
+     ],
+     "batidas": 2,
+     "motivo": "amigas na festa, rosto em foco"
+    },
+    {
+     "clipe": "MVI_0333",
+     "janela": [
+      0.0,
+      4.4
+     ],
+     "batidas": 2,
+     "motivo": "amigas conversando com o salão cheio ao fundo"
+    },
+    {
+     "clipe": "MVI_0552",
+     "janela": [
+      0.0,
+      6.7
+     ],
+     "batidas": 2,
+     "motivo": "equipe 'Sorrisos são virais' com a roleta"
+    },
+    {
+     "clipe": "MVI_0331",
+     "janela": [
+      0.0,
+      2.6
+     ],
+     "batidas": 2,
+     "motivo": "atendimento na mesa"
+    },
+    {
+     "clipe": "MVI_0554",
+     "janela": [
+      1.5,
+      3.4
+     ],
+     "batidas": 2,
+     "motivo": "família/criança na mesa"
+    },
+    {
+     "clipe": "MVI_0326",
+     "janela": [
+      2.0,
+      5.5
+     ],
+     "batidas": 2,
+     "motivo": "mesa com mural da marca ao fundo"
+    },
+    {
+     "clipe": "MVI_0339",
+     "janela": [
+      0.0,
+      2.5
+     ],
+     "batidas": 2,
+     "motivo": "grupo conversando na área externa"
+    },
+    {
+     "clipe": "MVI_0582",
+     "janela": [
+      0.0,
+      3.5
+     ],
+     "batidas": 2,
+     "motivo": "cliente sorrindo"
+    },
+    {
+     "clipe": "MVI_0544",
+     "janela": [
+      9.0,
+      15.8
+     ],
+     "batidas": 2,
+     "motivo": "amigas dançando - energia antes de baixar o ritmo"
+    }
+   ]
+  },
+  {
+   "bloco": 3,
+   "nome": "Burger",
+   "planos": [
+    {
+     "clipe": "MVI_0597",
+     "janela": [
+      2.4,
+      4.7
+     ],
+     "batidas": 4,
+     "transicao_entrada": "dissolve",
+     "motivo": "cozinha montando o burger"
+    },
+    {
+     "clipe": "MVI_0710",
+     "janela": [
+      0.0,
+      2.4
+     ],
+     "batidas": 4,
+     "motivo": "close da bandeja com burger e fritas"
+    },
+    {
+     "clipe": "MVI_0711",
+     "janela": [
+      4.5,
+      12.4
+     ],
+     "batidas": 4,
+     "motivo": "cliente mordendo o burger"
+    },
+    {
+     "clipe": "MVI_0610",
+     "janela": [
+      0.0,
+      3.5
+     ],
+     "batidas": 4,
+     "motivo": "cliente sorrindo com o burger na mão"
+    },
+    {
+     "clipe": "MVI_0656",
+     "janela": [
+      0.0,
+      5.2
+     ],
+     "batidas": 4,
+     "motivo": "cliente comendo, mesa com bandejas e latas"
+    },
+    {
+     "clipe": "MVI_0324",
+     "janela": [
+      0.0,
+      3.2
+     ],
+     "batidas": 4,
+     "motivo": "cliente comendo burger na área externa"
+    },
+    {
+     "clipe": "MVI_0551",
+     "janela": [
+      0.0,
+      8.7
+     ],
+     "batidas": 4,
+     "motivo": "salão interno cheio, mesas comendo (fecha o bloco ligando burger e casa cheia)"
+    }
+   ]
+  },
+  {
+   "bloco": 4,
+   "nome": "Comemoração",
+   "planos": [
+    {
+     "clipe": "MVI_0547",
+     "janela": [
+      0.0,
+      11.5
+     ],
+     "batidas": 2,
+     "transicao_entrada": "dissolve",
+     "motivo": "roleta de prêmios girando"
+    },
+    {
+     "clipe": "MVI_0553",
+     "janela": [
+      0.0,
+      1.2
+     ],
+     "batidas": 2,
+     "motivo": "brinde com sacola '1 ano de T.T.'"
+    },
+    {
+     "clipe": "MVI_0722",
+     "janela": [
+      0.0,
+      3.0
+     ],
+     "batidas": 2,
+     "motivo": "máquina de garra com ketchups"
+    },
+    {
+     "clipe": "MVI_0557",
+     "janela": [
+      13.0,
+      18.0
+     ],
+     "batidas": 1,
+     "motivo": "roleta girando (close, corte rápido antes do drop)"
+    },
+    {
+     "clipe": "MVI_0558",
+     "janela": [
+      0.0,
+      3.5
+     ],
+     "batidas": 1,
+     "motivo": "placa de premiações"
+    },
+    {
+     "clipe": "MVI_0571",
+     "janela": [
+      20.5,
+      27.0
+     ],
+     "batidas": 2,
+     "motivo": "cliente rindo/comemorando (no drop final)"
+    },
+    {
+     "clipe": "MVI_0723",
+     "janela": [
+      15.0,
+      18.2
+     ],
+     "batidas": 2,
+     "motivo": "cliente rindo na máquina de garra"
+    },
+    {
+     "clipe": "MVI_0580",
+     "janela": [
+      0.0,
+      4.5
+     ],
+     "batidas": 2,
+     "motivo": "amigas juntas sorrindo"
+    },
+    {
+     "clipe": "MVI_0581",
+     "janela": [
+      24.0,
+      30.4
+     ],
+     "batidas": 2,
+     "motivo": "cliente sorrindo/rindo, rosto nítido (substitui MVI_0720, desfocado)"
+    }
+   ]
+  },
+  {
+   "bloco": 5,
+   "nome": "Fechamento",
+   "planos": [
+    {
+     "clipe": "MVI_0579",
+     "janela": [
+      2.5,
+      5.2
+     ],
+     "batidas": 4,
+     "motivo": "rua/fila com letreiro T.T.BURGER"
+    },
+    {
+     "clipe": "MVI_0713",
+     "janela": [
+      0.0,
+      2.79
+     ],
+     "batidas": 4,
+     "fade_out": true,
+     "motivo": "letreiro T.T.BURGER sobre a multidão - assinatura final com fade"
+    }
+   ]
+  }
+ ]
+}
