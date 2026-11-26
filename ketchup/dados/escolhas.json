@@ -1,0 +1,171 @@
+{
+ "_doc": "ini/fim = início e fim do conteúdo no original (s): fala e/ou vela apagada. janela_entrada = onde procurar o silêncio de entrada. voz = trechos com fala (música desce). limite = saída máxima (antes de fala indesejada/fim do clipe). som=false: plano sem o áudio da câmera (só música). ini_min = entrada mais cedo aceitável (trecho parado/silencioso), usada só para fechar o plano na batida.",
+ "fps": 24,
+ "musica": {
+  "arquivo": "Like A Win (Instrumental).mp4",
+  "inicio": 65.6,
+  "volume_fala_db": -24,
+  "volume_livre_db": -13,
+  "fade_out_s": 1.5
+ },
+ "cauda_final_s": 0.3,
+ "planos": [
+  {
+   "cena": "1",
+   "clipe": "MVI_0343",
+   "ini": 0.9,
+   "janela_entrada": [
+    0.85,
+    0.95
+   ],
+   "fim": 4.1,
+   "limite": 4.35,
+   "voz": [],
+   "texto": "(sem fala: close do burger com a velinha sendo soprada)",
+   "motivo": "direcional: abrir com o close do hambúrguer com a velinha sendo soprada",
+   "som": false,
+   "ini_min": 0.3
+  },
+  {
+   "cena": "2",
+   "clipe": "MVI_0342",
+   "ini": 2.35,
+   "janela_entrada": [
+    2.2,
+    2.5
+   ],
+   "fim": 5.65,
+   "limite": 7.5,
+   "voz": [
+    [
+     2.5,
+     5.7
+    ]
+   ],
+   "texto": "Eu desejo um ano cheio de ketchup e de goiabada.",
+   "motivo": "direcional: mulher de vermelho falando do ketchup (o sopro dela já aparece no close da abertura)",
+   "ini_min": 2.15
+  },
+  {
+   "cena": "3",
+   "clipe": "MVI_0346",
+   "ini": 1.05,
+   "janela_entrada": [
+    0.95,
+    1.12
+   ],
+   "fim": 3.9,
+   "limite": 4.12,
+   "voz": [
+    [
+     1.05,
+     2.65
+    ]
+   ],
+   "texto": "Eu desejo mais hambúrgueres novos. (sopra)",
+   "motivo": "desejo curto + sopro; quebra com rosto masculino depois de duas cenas da mesma mulher",
+   "ini_min": 0.4
+  },
+  {
+   "cena": "4",
+   "clipe": "MVI_0340",
+   "ini": 3.45,
+   "janela_entrada": [
+    3.3,
+    3.5
+   ],
+   "fim": 6.75,
+   "limite": 7.6,
+   "voz": [
+    [
+     3.45,
+     6.75
+    ]
+   ],
+   "texto": "Eu desejo muito hambúrguer pra todo mundo.",
+   "motivo": "desejo (não sopra no clipe)",
+   "ini_min": 2.9
+  },
+  {
+   "cena": "5",
+   "clipe": "MVI_0341",
+   "ini": 2.2,
+   "janela_entrada": [
+    2.05,
+    2.4
+   ],
+   "fim": 12.75,
+   "limite": 13.6,
+   "voz": [
+    [
+     4.6,
+     12.75
+    ]
+   ],
+   "texto": "(sopra) Seja mais um ano do T.T. Burger com muito Quintão, muita [farta/festa?] do Sacode, muitas idas e vindas aqui, aproveitando o máximo de todas essas delícias.",
+   "motivo": "sopro + o desejo mais completo (cita T.T. e Quintão)",
+   "ini_min": 1.6
+  },
+  {
+   "cena": "6",
+   "clipe": "MVI_0347",
+   "ini": 1.2,
+   "janela_entrada": [
+    1.0,
+    1.3
+   ],
+   "fim": 7.15,
+   "limite": 7.6,
+   "voz": [
+    [
+     1.2,
+     4.45
+    ]
+   ],
+   "texto": "Eu desejo muitos clientes e muita prosperidade, tá bom? (sopra)",
+   "motivo": "desejo + sopro",
+   "ini_min": 0.4
+  },
+  {
+   "cena": "7",
+   "clipe": "MVI_0348",
+   "ini": 8.7,
+   "janela_entrada": [
+    8.6,
+    8.79
+   ],
+   "fim": 11.5,
+   "limite": 14.6,
+   "voz": [
+    [
+     8.7,
+     11.5
+    ]
+   ],
+   "texto": "Eu desejo que tenham mais promoções de Sacode.",
+   "motivo": "desejo (sem o 'é pra eu falar, tipo...'; não sopra no clipe)",
+   "ini_min": 8.3
+  },
+  {
+   "cena": "8",
+   "clipe": "MVI_0349",
+   "ini": 9.7,
+   "janela_entrada": [
+    9.5,
+    9.8
+   ],
+   "fim": 16.3,
+   "limite": 16.55,
+   "voz": [
+    [
+     9.58,
+     13.5
+    ]
+   ],
+   "texto": "Eu desejo muito sucesso e muito T.T. trufado! (ri, sopra e comemora)",
+   "motivo": "fechamento: desejo da marca + sopro + comemoração, no compasso mais forte da música",
+   "ini_min": 9.0
+  }
+ ],
+ "nome": "TT 1 ano - desejos (velinha)"
+}

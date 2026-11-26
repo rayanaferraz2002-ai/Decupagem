@@ -1,0 +1,599 @@
+{
+ "MVI_0343.MP4": [
+  {
+   "ini": 0.0,
+   "fim": 1.66,
+   "texto": "Fala!",
+   "palavras": [
+    {
+     "p": "Fala!",
+     "ini": 0.0,
+     "fim": 1.66,
+     "prob": 0.23
+    }
+   ]
+  }
+ ],
+ "MVI_0349.MP4": [
+  {
+   "ini": 9.8,
+   "fim": 13.44,
+   "texto": "Muito sucesso e muito T.T. trunfado!",
+   "palavras": [
+    {
+     "p": "Muito",
+     "ini": 9.8,
+     "fim": 10.48,
+     "prob": 0.03
+    },
+    {
+     "p": "sucesso",
+     "ini": 10.48,
+     "fim": 11.16,
+     "prob": 0.72
+    },
+    {
+     "p": "e",
+     "ini": 11.16,
+     "fim": 11.44,
+     "prob": 0.8
+    },
+    {
+     "p": "muito",
+     "ini": 11.44,
+     "fim": 11.78,
+     "prob": 0.97
+    },
+    {
+     "p": "T",
+     "ini": 11.78,
+     "fim": 11.92,
+     "prob": 0.13
+    },
+    {
+     "p": ".T.",
+     "ini": 11.92,
+     "fim": 12.12,
+     "prob": 0.74
+    },
+    {
+     "p": "trunfado!",
+     "ini": 12.76,
+     "fim": 13.44,
+     "prob": 0.53
+    }
+   ]
+  }
+ ],
+ "MVI_0342.MP4": [
+  {
+   "ini": 2.56,
+   "fim": 5.78,
+   "texto": "Eu desejo um ano cheio de ketchup e de Goiabasa.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 2.56,
+     "fim": 3.12,
+     "prob": 0.77
+    },
+    {
+     "p": "desejo",
+     "ini": 3.12,
+     "fim": 3.62,
+     "prob": 0.99
+    },
+    {
+     "p": "um",
+     "ini": 3.62,
+     "fim": 3.76,
+     "prob": 0.99
+    },
+    {
+     "p": "ano",
+     "ini": 3.76,
+     "fim": 4.04,
+     "prob": 0.97
+    },
+    {
+     "p": "cheio",
+     "ini": 4.04,
+     "fim": 4.5,
+     "prob": 0.98
+    },
+    {
+     "p": "de",
+     "ini": 4.5,
+     "fim": 4.66,
+     "prob": 1.0
+    },
+    {
+     "p": "ketchup",
+     "ini": 4.66,
+     "fim": 4.94,
+     "prob": 0.93
+    },
+    {
+     "p": "e",
+     "ini": 4.94,
+     "fim": 5.12,
+     "prob": 0.54
+    },
+    {
+     "p": "de",
+     "ini": 5.12,
+     "fim": 5.22,
+     "prob": 0.94
+    },
+    {
+     "p": "Goiabasa.",
+     "ini": 5.22,
+     "fim": 5.78,
+     "prob": 0.61
+    }
+   ]
+  }
+ ],
+ "MVI_0341.MP4": [
+  {
+   "ini": 4.72,
+   "fim": 10.44,
+   "texto": "Seja mais um ano do Teteburgui com muito skintow, muita farta do sacode, muitas vindas e vindas",
+   "palavras": [
+    {
+     "p": "Seja",
+     "ini": 4.72,
+     "fim": 5.26,
+     "prob": 0.68
+    },
+    {
+     "p": "mais",
+     "ini": 5.26,
+     "fim": 5.54,
+     "prob": 0.99
+    },
+    {
+     "p": "um",
+     "ini": 5.54,
+     "fim": 5.66,
+     "prob": 0.86
+    },
+    {
+     "p": "ano",
+     "ini": 5.66,
+     "fim": 5.82,
+     "prob": 0.05
+    },
+    {
+     "p": "do",
+     "ini": 5.82,
+     "fim": 5.96,
+     "prob": 0.38
+    },
+    {
+     "p": "Teteburgui",
+     "ini": 5.96,
+     "fim": 6.58,
+     "prob": 0.66
+    },
+    {
+     "p": "com",
+     "ini": 6.58,
+     "fim": 6.76,
+     "prob": 0.65
+    },
+    {
+     "p": "muito",
+     "ini": 6.76,
+     "fim": 7.1,
+     "prob": 0.82
+    },
+    {
+     "p": "skintow,",
+     "ini": 7.1,
+     "fim": 7.68,
+     "prob": 0.6
+    },
+    {
+     "p": "muita",
+     "ini": 7.92,
+     "fim": 8.06,
+     "prob": 0.95
+    },
+    {
+     "p": "farta",
+     "ini": 8.06,
+     "fim": 8.3,
+     "prob": 0.56
+    },
+    {
+     "p": "do",
+     "ini": 8.3,
+     "fim": 8.56,
+     "prob": 0.95
+    },
+    {
+     "p": "sacode,",
+     "ini": 8.56,
+     "fim": 9.06,
+     "prob": 0.75
+    },
+    {
+     "p": "muitas",
+     "ini": 9.36,
+     "fim": 9.52,
+     "prob": 0.96
+    },
+    {
+     "p": "vindas",
+     "ini": 9.52,
+     "fim": 9.98,
+     "prob": 0.72
+    },
+    {
+     "p": "e",
+     "ini": 9.98,
+     "fim": 10.1,
+     "prob": 0.97
+    },
+    {
+     "p": "vindas",
+     "ini": 10.1,
+     "fim": 10.44,
+     "prob": 0.97
+    }
+   ]
+  },
+  {
+   "ini": 10.44,
+   "fim": 13.12,
+   "texto": "aqui aproveitando o máximo de todas essas delícias.",
+   "palavras": [
+    {
+     "p": "aqui",
+     "ini": 10.44,
+     "fim": 10.7,
+     "prob": 0.84
+    },
+    {
+     "p": "aproveitando",
+     "ini": 10.7,
+     "fim": 11.44,
+     "prob": 0.81
+    },
+    {
+     "p": "o",
+     "ini": 11.44,
+     "fim": 11.56,
+     "prob": 0.99
+    },
+    {
+     "p": "máximo",
+     "ini": 11.56,
+     "fim": 11.88,
+     "prob": 1.0
+    },
+    {
+     "p": "de",
+     "ini": 11.88,
+     "fim": 12.16,
+     "prob": 0.98
+    },
+    {
+     "p": "todas",
+     "ini": 12.16,
+     "fim": 12.34,
+     "prob": 1.0
+    },
+    {
+     "p": "essas",
+     "ini": 12.34,
+     "fim": 12.6,
+     "prob": 0.93
+    },
+    {
+     "p": "delícias.",
+     "ini": 12.6,
+     "fim": 13.12,
+     "prob": 0.98
+    }
+   ]
+  }
+ ],
+ "MVI_0344.MP4": [
+  {
+   "ini": 1.18,
+   "fim": 4.66,
+   "texto": "Posso? Eu desejo muito ketchup de Goiabá.",
+   "palavras": [
+    {
+     "p": "Posso?",
+     "ini": 1.18,
+     "fim": 1.98,
+     "prob": 0.48
+    },
+    {
+     "p": "Eu",
+     "ini": 2.52,
+     "fim": 2.7,
+     "prob": 0.87
+    },
+    {
+     "p": "desejo",
+     "ini": 2.7,
+     "fim": 3.18,
+     "prob": 0.99
+    },
+    {
+     "p": "muito",
+     "ini": 3.18,
+     "fim": 3.58,
+     "prob": 0.98
+    },
+    {
+     "p": "ketchup",
+     "ini": 3.58,
+     "fim": 3.92,
+     "prob": 0.77
+    },
+    {
+     "p": "de",
+     "ini": 3.92,
+     "fim": 4.16,
+     "prob": 0.98
+    },
+    {
+     "p": "Goiabá.",
+     "ini": 4.16,
+     "fim": 4.66,
+     "prob": 0.69
+    }
+   ]
+  }
+ ],
+ "snapinsta-1795715222564.mp4": [
+  {
+   "ini": 0.0,
+   "fim": 4.62,
+   "texto": "Eu desejo que em 2026 tenha um pedacinho do marezinho em cada cacinho de macaé.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 0.0,
+     "fim": 0.4,
+     "prob": 0.84
+    },
+    {
+     "p": "desejo",
+     "ini": 0.4,
+     "fim": 0.74,
+     "prob": 0.99
+    },
+    {
+     "p": "que",
+     "ini": 0.74,
+     "fim": 0.86,
+     "prob": 0.99
+    },
+    {
+     "p": "em",
+     "ini": 0.86,
+     "fim": 0.98,
+     "prob": 0.88
+    },
+    {
+     "p": "2026",
+     "ini": 0.98,
+     "fim": 1.68,
+     "prob": 0.96
+    },
+    {
+     "p": "tenha",
+     "ini": 1.68,
+     "fim": 1.92,
+     "prob": 0.6
+    },
+    {
+     "p": "um",
+     "ini": 1.92,
+     "fim": 2.06,
+     "prob": 0.98
+    },
+    {
+     "p": "pedacinho",
+     "ini": 2.06,
+     "fim": 2.48,
+     "prob": 0.99
+    },
+    {
+     "p": "do",
+     "ini": 2.48,
+     "fim": 2.68,
+     "prob": 0.87
+    },
+    {
+     "p": "marezinho",
+     "ini": 2.68,
+     "fim": 3.1,
+     "prob": 0.71
+    },
+    {
+     "p": "em",
+     "ini": 3.1,
+     "fim": 3.26,
+     "prob": 0.93
+    },
+    {
+     "p": "cada",
+     "ini": 3.26,
+     "fim": 3.38,
+     "prob": 1.0
+    },
+    {
+     "p": "cacinho",
+     "ini": 3.38,
+     "fim": 3.76,
+     "prob": 0.42
+    },
+    {
+     "p": "de",
+     "ini": 3.76,
+     "fim": 3.98,
+     "prob": 0.98
+    },
+    {
+     "p": "macaé.",
+     "ini": 3.98,
+     "fim": 4.62,
+     "prob": 0.62
+    }
+   ]
+  },
+  {
+   "ini": 6.44,
+   "fim": 8.76,
+   "texto": "Eu desejo férias infinitas.",
+   "palavras": [
+    {
+     "p": "Eu",
+     "ini": 6.44,
+     "fim": 6.96,
+     "prob": 0.97
+    },
+    {
+     "p": "desejo",
+     "ini": 6.96,
+     "fim": 7.48,
+     "prob": 1.0
+    },
+    {
+     "p": "férias",
+     "ini": 7.48,
+     "fim": 7.88,
+     "prob": 0.98
+    },
+    {
+     "p": "infinitas.",
+     "ini": 7.88,
+     "fim": 8.76,
+     "prob": 1.0
+    }
+   ]
+  },
+  {
+   "ini": 11.0,
+   "fim": 14.72,
+   "texto": "Que a gente viva mais momentos e que eu tenho orgulho de dizer que eu faço parte disso.",
+   "palavras": [
+    {
+     "p": "Que",
+     "ini": 11.0,
+     "fim": 11.16,
+     "prob": 0.96
+    },
+    {
+     "p": "a",
+     "ini": 11.16,
+     "fim": 11.24,
+     "prob": 0.99
+    },
+    {
+     "p": "gente",
+     "ini": 11.24,
+     "fim": 11.4,
+     "prob": 1.0
+    },
+    {
+     "p": "viva",
+     "ini": 11.4,
+     "fim": 11.64,
+     "prob": 0.96
+    },
+    {
+     "p": "mais",
+     "ini": 11.64,
+     "fim": 11.92,
+     "prob": 0.99
+    },
+    {
+     "p": "momentos",
+     "ini": 11.92,
+     "fim": 12.24,
+     "prob": 1.0
+    },
+    {
+     "p": "e",
+     "ini": 12.24,
+     "fim": 12.38,
+     "prob": 0.55
+    },
+    {
+     "p": "que",
+     "ini": 12.38,
+     "fim": 12.48,
+     "prob": 0.97
+    },
+    {
+     "p": "eu",
+     "ini": 12.48,
+     "fim": 12.54,
+     "prob": 0.99
+    },
+    {
+     "p": "tenho",
+     "ini": 12.54,
+     "fim": 12.64,
+     "prob": 0.67
+    },
+    {
+     "p": "orgulho",
+     "ini": 12.64,
+     "fim": 13.04,
+     "prob": 0.99
+    },
+    {
+     "p": "de",
+     "ini": 13.04,
+     "fim": 13.24,
+     "prob": 0.99
+    },
+    {
+     "p": "dizer",
+     "ini": 13.24,
+     "fim": 13.54,
+     "prob": 1.0
+    },
+    {
+     "p": "que",
+     "ini": 13.54,
+     "fim": 13.76,
+     "prob": 0.44
+    },
+    {
+     "p": "eu",
+     "ini": 13.76,
+     "fim": 13.9,
+     "prob": 0.97
+    },
+    {
+     "p": "faço",
+     "ini": 13.9,
+     "fim": 14.06,
+     "prob": 0.99
+    },
+    {
+     "p": "parte",
+     "ini": 14.06,
+     "fim": 14.4,
+     "prob": 1.0
+    },
+    {
+     "p": "disso.",
+     "ini": 14.4,
+     "fim": 14.72,
+     "prob": 0.99
+    }
+   ]
+  }
+ ]
+}

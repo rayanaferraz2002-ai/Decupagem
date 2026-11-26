@@ -1,0 +1,10 @@
+| # | Cena | Timeline | Dur. | Arquivo original | Entrada → saída no original | Rotação | Zoom | Áudio da câmera | Conteúdo | Motivo |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 1 | 00:00:00:00 | 3.46s | MVI_0343.MP4 | 0.85s → 4.31s (00:00:20 → 00:04:07) | 90° anti-horário | — | mudo | (sem fala: close do burger com a velinha sendo soprada) | direcional: abrir com o close do hambúrguer com a velinha sendo soprada |
+| 2 | 2 | 00:00:03:11 | 4.17s | MVI_0342.MP4 | 2.27s → 6.44s (00:02:06 → 00:06:10) | 90° anti-horário | — | +6.4 dB | Eu desejo um ano cheio de ketchup e de goiabada. | direcional: mulher de vermelho falando do ketchup (o sopro dela já aparece no close da abertura) |
+| 3 | 3 | 00:00:07:15 | 3.42s | MVI_0346.MP4 | 0.70s → 4.11s (00:00:17 → 00:04:03) | 90° horário | — | +5.8 dB | Eu desejo mais hambúrgueres novos. (sopra) | desejo curto + sopro; quebra com rosto masculino depois de duas cenas da mesma mulher |
+| 4 | 4 | 00:00:11:01 | 4.12s | MVI_0340.MP4 | 3.37s → 7.50s (00:03:09 → 00:07:12) | 90° anti-horário | — | +12.0 dB | Eu desejo muito hambúrguer pra todo mundo. | desejo (não sopra no clipe) |
+| 5 | 5 | 00:00:15:04 | 11.04s | MVI_0341.MP4 | 2.25s → 13.29s (00:02:06 → 00:13:07) | 90° anti-horário | — | +12.0 dB | (sopra) Seja mais um ano do T.T. Burger com muito Quintão, muita [farta/festa?] do Sacode, muitas idas e vindas aqui, aproveitando o máximo de todas essas delícias. | sopro + o desejo mais completo (cita T.T. e Quintão) |
+| 6 | 6 | 00:00:26:05 | 6.21s | MVI_0347.MP4 | 1.01s → 7.22s (00:01:00 → 00:07:05) | 90° horário | — | +12.0 dB | Eu desejo muitos clientes e muita prosperidade, tá bom? (sopra) | desejo + sopro |
+| 7 | 7 | 00:00:32:10 | 3.46s | MVI_0348.MP4 | 8.65s → 12.11s (00:08:15 → 00:12:02) | 90° horário | — | +0.8 dB | Eu desejo que tenham mais promoções de Sacode. | desejo (sem o 'é pra eu falar, tipo...'; não sopra no clipe) |
+| 8 | 8 | 00:00:35:21 | 6.88s | MVI_0349.MP4 | 9.58s → 16.45s (00:09:14 → 00:16:11) | 90° horário | — | +6.5 dB | Eu desejo muito sucesso e muito T.T. trufado! (ri, sopra e comemora) | fechamento: desejo da marca + sopro + comemoração, no compasso mais forte da música |

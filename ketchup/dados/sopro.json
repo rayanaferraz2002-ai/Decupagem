@@ -1,0 +1,42 @@
+{
+ "MVI_0340": {
+  "apagou_s": null,
+  "chama_p90": 1351.4,
+  "acesa_inicio": true
+ },
+ "MVI_0341": {
+  "apagou_s": 2.59,
+  "chama_p90": 134.7999999999999,
+  "acesa_inicio": true
+ },
+ "MVI_0342": {
+  "apagou_s": 3.5,
+  "chama_p90": 143.0000000000001,
+  "acesa_inicio": true
+ },
+ "MVI_0343": {
+  "apagou_s": null,
+  "chama_p90": 1007.0000000000001,
+  "acesa_inicio": true
+ },
+ "MVI_0346": {
+  "apagou_s": 5.92,
+  "chama_p90": 1481.9,
+  "acesa_inicio": true
+ },
+ "MVI_0347": {
+  "apagou_s": 7.34,
+  "chama_p90": 757.7000000000014,
+  "acesa_inicio": true
+ },
+ "MVI_0348": {
+  "apagou_s": 12.26,
+  "chama_p90": 1354.4,
+  "acesa_inicio": true
+ },
+ "MVI_0349": {
+  "apagou_s": 16.52,
+  "chama_p90": 1310.4,
+  "acesa_inicio": true
+ }
+}

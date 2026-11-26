@@ -1,0 +1,320 @@
+{
+ "sequencia": {
+  "nome": "TT 1 ano - desejos (velinha)",
+  "largura": 720,
+  "altura": 1280,
+  "fps": 24,
+  "duracao_f": 1026,
+  "duracao_s": 42.75,
+  "fonte": "configuração do vídeo de referência"
+ },
+ "musica": {
+  "arquivo": "Like A Win (Instrumental).mp4",
+  "in_s": 65.6,
+  "out_s": 108.35,
+  "volume_fala_db": -24,
+  "volume_livre_db": -13,
+  "falas_f": [
+   [
+    89,
+    165
+   ],
+   [
+    191,
+    230
+   ],
+   [
+    267,
+    346
+   ],
+   [
+    420,
+    616
+   ],
+   [
+    634,
+    712
+   ],
+   [
+    779,
+    846
+   ],
+   [
+    861,
+    955
+   ]
+  ],
+  "fade_out_s": 1.5,
+  "bpm": 87.0
+ },
+ "fade_video_f": 15,
+ "planos": [
+  {
+   "n": 1,
+   "cena": "1",
+   "clipe": "MVI_0343",
+   "arquivo": "MVI_0343.MP4",
+   "texto": "(sem fala: close do burger com a velinha sendo soprada)",
+   "motivo": "direcional: abrir com o close do hambúrguer com a velinha sendo soprada",
+   "timeline_in_f": 0,
+   "timeline_out_f": 83,
+   "timeline_in_tc": "00:00:00:00",
+   "in_s": 0.85,
+   "out_s": 4.308,
+   "fala_fim_s": 4.1,
+   "rotacao": "ccw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "voz_s": [],
+   "som": false,
+   "ganho_fala_db": 0.0,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 4.421083
+   }
+  },
+  {
+   "n": 2,
+   "cena": "2",
+   "clipe": "MVI_0342",
+   "arquivo": "MVI_0342.MP4",
+   "texto": "Eu desejo um ano cheio de ketchup e de goiabada.",
+   "motivo": "direcional: mulher de vermelho falando do ketchup (o sopro dela já aparece no close da abertura)",
+   "timeline_in_f": 83,
+   "timeline_out_f": 183,
+   "timeline_in_tc": "00:00:03:11",
+   "in_s": 2.27,
+   "out_s": 6.437,
+   "fala_fim_s": 5.65,
+   "rotacao": "ccw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "voz_s": [
+    [
+     2.5,
+     5.7
+    ]
+   ],
+   "som": true,
+   "ganho_fala_db": 6.4,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 6.840167
+   }
+  },
+  {
+   "n": 3,
+   "cena": "3",
+   "clipe": "MVI_0346",
+   "arquivo": "MVI_0346.MP4",
+   "texto": "Eu desejo mais hambúrgueres novos. (sopra)",
+   "motivo": "desejo curto + sopro; quebra com rosto masculino depois de duas cenas da mesma mulher",
+   "timeline_in_f": 183,
+   "timeline_out_f": 265,
+   "timeline_in_tc": "00:00:07:15",
+   "in_s": 0.696,
+   "out_s": 4.113,
+   "fala_fim_s": 3.9,
+   "rotacao": "cw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "voz_s": [
+    [
+     1.05,
+     2.65
+    ]
+   ],
+   "som": true,
+   "ganho_fala_db": 5.8,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 6.798458
+   }
+  },
+  {
+   "n": 4,
+   "cena": "4",
+   "clipe": "MVI_0340",
+   "arquivo": "MVI_0340.MP4",
+   "texto": "Eu desejo muito hambúrguer pra todo mundo.",
+   "motivo": "desejo (não sopra no clipe)",
+   "timeline_in_f": 265,
+   "timeline_out_f": 364,
+   "timeline_in_tc": "00:00:11:01",
+   "in_s": 3.37,
+   "out_s": 7.495,
+   "fala_fim_s": 6.75,
+   "rotacao": "ccw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "voz_s": [
+    [
+     3.45,
+     6.75
+    ]
+   ],
+   "som": true,
+   "ganho_fala_db": 12.0,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 9.426083
+   }
+  },
+  {
+   "n": 5,
+   "cena": "5",
+   "clipe": "MVI_0341",
+   "arquivo": "MVI_0341.MP4",
+   "texto": "(sopra) Seja mais um ano do T.T. Burger com muito Quintão, muita [farta/festa?] do Sacode, muitas idas e vindas aqui, aproveitando o máximo de todas essas delícias.",
+   "motivo": "sopro + o desejo mais completo (cita T.T. e Quintão)",
+   "timeline_in_f": 364,
+   "timeline_out_f": 629,
+   "timeline_in_tc": "00:00:15:04",
+   "in_s": 2.25,
+   "out_s": 13.292,
+   "fala_fim_s": 12.75,
+   "rotacao": "ccw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "voz_s": [
+    [
+     4.6,
+     12.75
+    ]
+   ],
+   "som": true,
+   "ganho_fala_db": 12.0,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 13.76375
+   }
+  },
+  {
+   "n": 6,
+   "cena": "6",
+   "clipe": "MVI_0347",
+   "arquivo": "MVI_0347.MP4",
+   "texto": "Eu desejo muitos clientes e muita prosperidade, tá bom? (sopra)",
+   "motivo": "desejo + sopro",
+   "timeline_in_f": 629,
+   "timeline_out_f": 778,
+   "timeline_in_tc": "00:00:26:05",
+   "in_s": 1.01,
+   "out_s": 7.218,
+   "fala_fim_s": 7.15,
+   "rotacao": "cw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "voz_s": [
+    [
+     1.2,
+     4.45
+    ]
+   ],
+   "som": true,
+   "ganho_fala_db": 12.0,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 7.674333
+   }
+  },
+  {
+   "n": 7,
+   "cena": "7",
+   "clipe": "MVI_0348",
+   "arquivo": "MVI_0348.MP4",
+   "texto": "Eu desejo que tenham mais promoções de Sacode.",
+   "motivo": "desejo (sem o 'é pra eu falar, tipo...'; não sopra no clipe)",
+   "timeline_in_f": 778,
+   "timeline_out_f": 861,
+   "timeline_in_tc": "00:00:32:10",
+   "in_s": 8.65,
+   "out_s": 12.108,
+   "fala_fim_s": 11.5,
+   "rotacao": "cw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "voz_s": [
+    [
+     8.7,
+     11.5
+    ]
+   ],
+   "som": true,
+   "ganho_fala_db": 0.8,
+   "transicao_entrada": "corte",
+   "fade_out": false,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 15.348667
+   }
+  },
+  {
+   "n": 8,
+   "cena": "8",
+   "clipe": "MVI_0349",
+   "arquivo": "MVI_0349.MP4",
+   "texto": "Eu desejo muito sucesso e muito T.T. trufado! (ri, sopra e comemora)",
+   "motivo": "fechamento: desejo da marca + sopro + comemoração, no compasso mais forte da música",
+   "timeline_in_f": 861,
+   "timeline_out_f": 1026,
+   "timeline_in_tc": "00:00:35:21",
+   "in_s": 9.58,
+   "out_s": 16.455,
+   "fala_fim_s": 16.3,
+   "rotacao": "cw",
+   "zoom": false,
+   "zoom_fim": 1.0,
+   "voz_s": [
+    [
+     9.58,
+     13.5
+    ]
+   ],
+   "som": true,
+   "ganho_fala_db": 6.5,
+   "transicao_entrada": "corte",
+   "fade_out": true,
+   "src": {
+    "w": 1920,
+    "h": 1080,
+    "fps": "24000/1001",
+    "fps_f": 23.976023976023978,
+    "dur": 16.641625
+   }
+  }
+ ]
+}
